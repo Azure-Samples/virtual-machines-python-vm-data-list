@@ -1,0 +1,27 @@
+[
+  {
+    "extendedProperties": {
+      "ResourceGroup": "Default-Storage-SoutheastAsia",
+      "ResourceLocation": "Southeast Asia"
+    },
+    "uri": "https://management.core.windows.net/7b163b55-8110-4062-918b-a061af34f94f/services/storageservices/rwportalvhdsjvb9tjbnm2wj",
+    "name": "rwportalvhdsjvb9tjbnm2wj",
+    "properties": {
+      "endpoints": [
+        "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+        "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+        "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+        "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/"
+      ],
+      "description": "Implicitly created storage service",
+      "location": "Southeast Asia",
+      "label": "rwportalvhdsjvb9tjbnm2wj",
+      "status": "Created",
+      "geoPrimaryRegion": "Southeast Asia",
+      "statusOfGeoPrimaryRegion": "Available",
+      "geoSecondaryRegion": "",
+      "accountType": "Standard_LRS"
+    },
+    "resourceGroup": ""
+  }
+]

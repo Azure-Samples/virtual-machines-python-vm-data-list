@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ea386c45-63d9-4cd7-bb5f-9b1b081ce30d}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>transform\transform.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>
+    </InterpreterId>
+    <InterpreterVersion>
+    </InterpreterVersion>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <CommandLineArguments>
+    </CommandLineArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="inventory\rulesconfig.json" />
+    <Content Include="data\.gitkeep" />
+    <Content Include="data\readme.md" />
+    <Content Include="extract\linux\.gitkeep" />
+    <Content Include="extract\linux\extract.sh" />
+    <Content Include="extract\windows\.gitkeep" />
+    <Content Include="extract\windows\extract.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="inventory\inventory.py" />
+    <Compile Include="inventory\rules\storageinventory.py" />
+    <Compile Include="inventory\rules\vminventory.py" />
+    <Compile Include="transform\Models\CanonicalModel.py" />
+    <Compile Include="transform\Models\ARMStorageModel.py" />
+    <Compile Include="transform\Models\ARMVMModel.py" />
+    <Compile Include="transform\transformHelper.py" />
+    <Compile Include="transform\Models\ASMStorageModel.py" />
+    <Compile Include="transform\Models\ASMVMModel.py" />
+    <Compile Include="transform\transform.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="inventory" />
+    <Folder Include="inventory\rules" />
+    <Folder Include="data\" />
+    <Folder Include="extract\" />
+    <Folder Include="extract\linux\" />
+    <Folder Include="extract\windows\" />
+    <Folder Include="transform" />
+    <Folder Include="transform\Models\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

@@ -1,0 +1,3203 @@
+[
+    {
+        "ResourceGroupName":  "contosoWINVM01",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINVM01/providers/Microsoft.Compute/virtualMachines/contosowinvm01",
+        "VmId":  "3f3e1f2c-b4b8-4d50-8487-77f35d4ffd3a",
+        "Name":  "contosowinvm01",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "northcentralus",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  null,
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "https://contosowinvm011353.blob.core.windows.net/"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINVM01/providers/Microsoft.Compute/virtualMachines/contosowinvm01/extensions/Microsoft.Insights.VMDiagnosticsSettings",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINVM01/providers/Microsoft.Compute/virtualMachines/contosowinvm01/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_D14_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosowinvm01/providers/Microsoft.Network/networkInterfaces/contosowinvm015"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "contosowinvm01",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                          "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftWindowsServer",
+                                                      "Offer":  "WindowsServer",
+                                                      "Sku":  "2012-R2-Datacenter",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "contosowinvm01",
+                                              "Vhd":  {
+                                                          "Uri":  "https://contosowinvm011353.blob.core.windows.net/vhds/contosowinvm012016528223025.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+
+                                             ]
+                           },
+        "DataDiskNames":  [
+
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosowinvm01/providers/Microsoft.Network/networkInterfaces/contosowinvm015"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "contosoWINVM2",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINVM2/providers/Microsoft.Compute/virtualMachines/contosowinvm2",
+        "VmId":  "60ea416d-a5ab-4b80-a85e-500dbc1886e5",
+        "Name":  "contosowinvm2",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "northcentralus",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINVM2/providers/Microsoft.Compute/availabilitySets/contosoWINVM2"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "https://contosowinvm2diag202.blob.core.windows.net/"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINVM2/providers/Microsoft.Compute/virtualMachines/contosowinvm2/extensions/Microsoft.Insights.VMDiagnosticsSettings",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINVM2/providers/Microsoft.Compute/virtualMachines/contosowinvm2/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS2_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWinVM2/providers/Microsoft.Network/networkInterfaces/contosowinvm2288"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "contosowinvm2",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftWindowsServer",
+                                                      "Offer":  "WindowsServer",
+                                                      "Sku":  "2012-R2-Datacenter",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "contosowinvm2",
+                                              "Vhd":  {
+                                                          "Uri":  "https://contosowinvm2disks416.blob.core.windows.net/vhds/contosowinvm22016717203949.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+
+                                             ]
+                           },
+        "DataDiskNames":  [
+
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWinVM2/providers/Microsoft.Network/networkInterfaces/contosowinvm2288"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "contosoCENTOS",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoCENTOS/providers/Microsoft.Compute/virtualMachines/contosocentos",
+        "VmId":  "1ff4d5c7-a65e-4109-a848-2b818bfff542",
+        "Name":  "contosocentos",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "SouthIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  null,
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "https://contosocentosdiag819.blob.core.windows.net/"
+                                                       }
+                               },
+        "Extensions":  [
+
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS2_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoCentOS/providers/Microsoft.Network/networkInterfaces/contosocentos820"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "contosocentos",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  null,
+                          "LinuxConfiguration":  {
+                                                     "DisablePasswordAuthentication":  false,
+                                                     "Ssh":  null
+                                                 },
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Failed",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "OpenLogic",
+                                                      "Offer":  "CentOS",
+                                                      "Sku":  "7.3",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  1,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "contosocentos",
+                                              "Vhd":  null,
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  {
+                                                                  "StorageAccountType":  1,
+                                                                  "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoCentos/providers/Microsoft.Compute/disks/contosocentos"
+                                                              }
+                                          },
+                               "DataDisks":  [
+
+                                             ]
+                           },
+        "DataDiskNames":  [
+
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoCentOS/providers/Microsoft.Network/networkInterfaces/contosocentos820"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "contosoSPHA",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/ad-bdc",
+        "VmId":  "ce5d4d61-865e-4174-bea4-3f0690e6825d",
+        "Name":  "ad-bdc",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "SouthIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/availabilitySets/ADAVAILABILITYSET"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "http://contosospha4.blob.core.windows.net"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/ad-bdc/extensions/CreateBDC",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/ad-bdc/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS2_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/ad-bdc-nic"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "ad-bdc",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftWindowsServer",
+                                                      "Offer":  "WindowsServer",
+                                                      "Sku":  "2012-R2-Datacenter",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "osdisk",
+                                              "Vhd":  {
+                                                          "Uri":  "http://contosospha1.blob.core.windows.net/vhds/ad-bdc-osdisk.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+                                                 {
+                                                     "Lun":  0,
+                                                     "Name":  "ad-bdc-data-disk1",
+                                                     "Vhd":  {
+                                                                 "Uri":  "http://contosospha1.blob.core.windows.net/vhds/ad-bdcdata-1.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  128,
+                                                     "ManagedDisk":  null
+                                                 }
+                                             ]
+                           },
+        "DataDiskNames":  [
+                              "ad-bdc-data-disk1"
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/ad-bdc-nic"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "contosoSPHA",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/ad-pdc",
+        "VmId":  "07e742cb-1275-462c-8086-ce905616bede",
+        "Name":  "ad-pdc",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "SouthIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/availabilitySets/ADAVAILABILITYSET"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "http://contosospha4.blob.core.windows.net"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/ad-pdc/extensions/InstallDomainController",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/ad-pdc/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS2_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/ad-pdc-nic"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "ad-pdc",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftWindowsServer",
+                                                      "Offer":  "WindowsServer",
+                                                      "Sku":  "2012-R2-Datacenter",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "osdisk",
+                                              "Vhd":  {
+                                                          "Uri":  "http://contosospha1.blob.core.windows.net/vhds/ad-pdc-osdisk.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+                                                 {
+                                                     "Lun":  0,
+                                                     "Name":  "ad-pdc-data-disk1",
+                                                     "Vhd":  {
+                                                                 "Uri":  "http://contosospha1.blob.core.windows.net/vhds/ad-pdcdata-1.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  128,
+                                                     "ManagedDisk":  null
+                                                 }
+                                             ]
+                           },
+        "DataDiskNames":  [
+                              "ad-pdc-data-disk1"
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/ad-pdc-nic"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "contosoSPHA",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sps-app-0",
+        "VmId":  "dd96e004-19d2-47a9-8388-53ad784d8333",
+        "Name":  "sps-app-0",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "SouthIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/availabilitySets/SPAPPAVAILABILITYSET"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "http://contosospha4.blob.core.windows.net"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sps-app-0/extensions/ConfigureSPAppServer",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sps-app-0/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS3_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/sps-app-0-nic"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "sps-app-0",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftSharePoint",
+                                                      "Offer":  "MicrosoftSharePointServer",
+                                                      "Sku":  "2013",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "osdisk",
+                                              "Vhd":  {
+                                                          "Uri":  "http://contosospha3.blob.core.windows.net/vhds/sps-app-0-osdisk.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+                                                 {
+                                                     "Lun":  0,
+                                                     "Name":  "sps-app-0-data-disk1",
+                                                     "Vhd":  {
+                                                                 "Uri":  "http://contosospha3.blob.core.windows.net/vhds/sps-app-0-Data-1.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  128,
+                                                     "ManagedDisk":  null
+                                                 }
+                                             ]
+                           },
+        "DataDiskNames":  [
+                              "sps-app-0-data-disk1"
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/sps-app-0-nic"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "contosoSPHA",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sps-app-1",
+        "VmId":  "023b3ce9-d2cc-468d-8a3d-828a7c4353d8",
+        "Name":  "sps-app-1",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "SouthIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/availabilitySets/SPAPPAVAILABILITYSET"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "http://contosospha4.blob.core.windows.net"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sps-app-1/extensions/ConfigureSPAppServer",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sps-app-1/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS3_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/sps-app-1-nic"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "sps-app-1",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftSharePoint",
+                                                      "Offer":  "MicrosoftSharePointServer",
+                                                      "Sku":  "2013",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "osdisk",
+                                              "Vhd":  {
+                                                          "Uri":  "http://contosospha3.blob.core.windows.net/vhds/sps-app-1-osdisk.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+                                                 {
+                                                     "Lun":  0,
+                                                     "Name":  "sps-app-1-data-disk1",
+                                                     "Vhd":  {
+                                                                 "Uri":  "http://contosospha3.blob.core.windows.net/vhds/sps-app-1-Data-1.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  128,
+                                                     "ManagedDisk":  null
+                                                 }
+                                             ]
+                           },
+        "DataDiskNames":  [
+                              "sps-app-1-data-disk1"
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/sps-app-1-nic"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "contosoSPHA",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sps-web-0",
+        "VmId":  "984c6ee2-62f9-417c-b610-5fa44956639f",
+        "Name":  "sps-web-0",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "SouthIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/availabilitySets/SPWEBAVAILABILITYSET"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "http://contosospha4.blob.core.windows.net"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sps-web-0/extensions/ConfigureSPWebServer",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sps-web-0/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS3_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/sps-web-0-nic"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "sps-web-0",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftSharePoint",
+                                                      "Offer":  "MicrosoftSharePointServer",
+                                                      "Sku":  "2013",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "osdisk",
+                                              "Vhd":  {
+                                                          "Uri":  "http://contosospha3.blob.core.windows.net/vhds/sps-web-0-osdisk.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+                                                 {
+                                                     "Lun":  0,
+                                                     "Name":  "sps-web-0-data-disk1",
+                                                     "Vhd":  {
+                                                                 "Uri":  "http://contosospha3.blob.core.windows.net/vhds/sps-web-0-Data-1.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  128,
+                                                     "ManagedDisk":  null
+                                                 }
+                                             ]
+                           },
+        "DataDiskNames":  [
+                              "sps-web-0-data-disk1"
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/sps-web-0-nic"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "contosoSPHA",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sps-web-1",
+        "VmId":  "44898af9-faf7-4f74-ba51-450f32b0a48a",
+        "Name":  "sps-web-1",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "SouthIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/availabilitySets/SPWEBAVAILABILITYSET"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "http://contosospha4.blob.core.windows.net"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sps-web-1/extensions/ConfigureSPWebServer",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sps-web-1/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS3_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/sps-web-1-nic"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "sps-web-1",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftSharePoint",
+                                                      "Offer":  "MicrosoftSharePointServer",
+                                                      "Sku":  "2013",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "osdisk",
+                                              "Vhd":  {
+                                                          "Uri":  "http://contosospha3.blob.core.windows.net/vhds/sps-web-1-osdisk.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+                                                 {
+                                                     "Lun":  0,
+                                                     "Name":  "sps-web-1-data-disk1",
+                                                     "Vhd":  {
+                                                                 "Uri":  "http://contosospha3.blob.core.windows.net/vhds/sps-web-1-Data-1.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  128,
+                                                     "ManagedDisk":  null
+                                                 }
+                                             ]
+                           },
+        "DataDiskNames":  [
+                              "sps-web-1-data-disk1"
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/sps-web-1-nic"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "contosoSPHA",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sql-0",
+        "VmId":  "78514ab1-d359-4dd2-ae08-8f072a45c5d4",
+        "Name":  "sql-0",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "SouthIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/availabilitySets/SQLAVAILABILITYSET"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "http://contosospha4.blob.core.windows.net"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sql-0/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sql-0/extensions/SQLAOSetup",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS3_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/sql-0-nic"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "sql-0",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftSQLServer",
+                                                      "Offer":  "SQL2014-WS2012R2",
+                                                      "Sku":  "Enterprise",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "osdisk",
+                                              "Vhd":  {
+                                                          "Uri":  "http://contosospha2.blob.core.windows.net/vhds/sql-0-osdisk.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+                                                 {
+                                                     "Lun":  0,
+                                                     "Name":  "sql-0-data-disk1",
+                                                     "Vhd":  {
+                                                                 "Uri":  "http://contosospha2.blob.core.windows.net/vhds/sql-0-Data-1.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1000,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  1,
+                                                     "Name":  "sql-0-log-disk1",
+                                                     "Vhd":  {
+                                                                 "Uri":  "http://contosospha2.blob.core.windows.net/vhds/sql-0-log.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1000,
+                                                     "ManagedDisk":  null
+                                                 }
+                                             ]
+                           },
+        "DataDiskNames":  [
+                              "sql-0-data-disk1",
+                              "sql-0-log-disk1"
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/sql-0-nic"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "contosoSPHA",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sql-1",
+        "VmId":  "e9aa2ba5-5cae-4601-8cf7-b0f90ed351b1",
+        "Name":  "sql-1",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "SouthIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/availabilitySets/SQLAVAILABILITYSET"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "http://contosospha4.blob.core.windows.net"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sql-1/extensions/CreateCluster",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sql-1/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS3_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/sql-1-nic"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "sql-1",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftSQLServer",
+                                                      "Offer":  "SQL2014-WS2012R2",
+                                                      "Sku":  "Enterprise",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "osdisk",
+                                              "Vhd":  {
+                                                          "Uri":  "http://contosospha2.blob.core.windows.net/vhds/sql-1-osdisk.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+                                                 {
+                                                     "Lun":  0,
+                                                     "Name":  "sql-1-data-disk1",
+                                                     "Vhd":  {
+                                                                 "Uri":  "http://contosospha2.blob.core.windows.net/vhds/sql-1-Data-1.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1000,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  1,
+                                                     "Name":  "sql-1-log-disk1",
+                                                     "Vhd":  {
+                                                                 "Uri":  "http://contosospha2.blob.core.windows.net/vhds/sql-1-log.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1000,
+                                                     "ManagedDisk":  null
+                                                 }
+                                             ]
+                           },
+        "DataDiskNames":  [
+                              "sql-1-data-disk1",
+                              "sql-1-log-disk1"
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/sql-1-nic"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "contosoSPHA",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sql-w",
+        "VmId":  "adc1d8c7-2fc5-486b-87e3-cf74fd25166e",
+        "Name":  "sql-w",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "SouthIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/availabilitySets/SQLAVAILABILITYSET"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "http://contosospha4.blob.core.windows.net"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sql-w/extensions/CreateFileShareWitness",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Compute/virtualMachines/sql-w/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS1_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/sql-w-nic"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "sql-w",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftWindowsServer",
+                                                      "Offer":  "WindowsServer",
+                                                      "Sku":  "2012-R2-Datacenter",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "osdisk",
+                                              "Vhd":  {
+                                                          "Uri":  "http://contosospha2.blob.core.windows.net/vhds/sql-w-osdisk.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+                                                 {
+                                                     "Lun":  0,
+                                                     "Name":  "sql-w-data-disk1",
+                                                     "Vhd":  {
+                                                                 "Uri":  "http://contosospha2.blob.core.windows.net/vhds/sql-w-data-1.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  128,
+                                                     "ManagedDisk":  null
+                                                 }
+                                             ]
+                           },
+        "DataDiskNames":  [
+                              "sql-w-data-disk1"
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoSPHA/providers/Microsoft.Network/networkInterfaces/sql-w-nic"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "contosoUBUNTU",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoUBUNTU/providers/Microsoft.Compute/virtualMachines/contosoubuntu16",
+        "VmId":  "1010265f-3e47-4f30-bc18-50fba3dc89a2",
+        "Name":  "contosoubuntu16",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "SouthIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  null,
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "https://contosoubuntu7994.blob.core.windows.net/"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoUBUNTU/providers/Microsoft.Compute/virtualMachines/contosoubuntu16/extensions/LinuxAsm",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoUBUNTU/providers/Microsoft.Compute/virtualMachines/contosoubuntu16/extensions/Microsoft.Insights.VMDiagnosticsSettings",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS2_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoubuntu/providers/Microsoft.Network/networkInterfaces/contosoubuntu16673"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "contosoubuntu16",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  null,
+                          "LinuxConfiguration":  {
+                                                     "DisablePasswordAuthentication":  false,
+                                                     "Ssh":  null
+                                                 },
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "Canonical",
+                                                      "Offer":  "UbuntuServer",
+                                                      "Sku":  "16.04.0-LTS",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  1,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "contosoubuntu16",
+                                              "Vhd":  {
+                                                          "Uri":  "https://contosoubuntu2280.blob.core.windows.net/vhds/contosoubuntu1620166512446.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+
+                                             ]
+                           },
+        "DataDiskNames":  [
+
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoubuntu/providers/Microsoft.Network/networkInterfaces/contosoubuntu16673"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "contosoWINVM03",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINVM03/providers/Microsoft.Compute/virtualMachines/contosowinvm03",
+        "VmId":  "ff8d7624-29db-4ceb-b058-c045f313d7f5",
+        "Name":  "contosowinvm03",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "SouthIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  null,
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "https://contosowinvm039189.blob.core.windows.net/"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINVM03/providers/Microsoft.Compute/virtualMachines/contosowinvm03/extensions/Microsoft.Insights.VMDiagnosticsSettings",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINVM03/providers/Microsoft.Compute/virtualMachines/contosowinvm03/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS15_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosowinvm03/providers/Microsoft.Network/networkInterfaces/contosowinvm03740"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "contosowinvm03",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftWindowsServer",
+                                                      "Offer":  "WindowsServer",
+                                                      "Sku":  "2012-R2-Datacenter",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "contosowinvm03",
+                                              "Vhd":  {
+                                                          "Uri":  "https://contosowinvm032376.blob.core.windows.net/vhds/contosowinvm03201665123159.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+
+                                             ]
+                           },
+        "DataDiskNames":  [
+
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosowinvm03/providers/Microsoft.Network/networkInterfaces/contosowinvm03740"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "IPTEST01",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTEST01/providers/Microsoft.Compute/virtualMachines/IPTest03",
+        "VmId":  "24f25057-8bfe-4ef6-8342-881d77208d99",
+        "Name":  "IPTest03",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "SouthIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTEST01/providers/Microsoft.Compute/availabilitySets/IPTESTAS"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "https://contosospha4.blob.core.windows.net/"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTEST01/providers/Microsoft.Compute/virtualMachines/IPTest03/extensions/Microsoft.Insights.VMDiagnosticsSettings",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTEST01/providers/Microsoft.Compute/virtualMachines/IPTest03/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS2_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTest01/providers/Microsoft.Network/networkInterfaces/iptest03647"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "IPTest03",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftWindowsServer",
+                                                      "Offer":  "WindowsServer",
+                                                      "Sku":  "2012-R2-Datacenter",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "IPTest03",
+                                              "Vhd":  {
+                                                          "Uri":  "https://contosospha1.blob.core.windows.net/vhds/IPTest032016716184741.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+
+                                             ]
+                           },
+        "DataDiskNames":  [
+
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTest01/providers/Microsoft.Network/networkInterfaces/iptest03647"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "IPTEST01",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTEST01/providers/Microsoft.Compute/virtualMachines/IPTEstVM01",
+        "VmId":  "caaa9d4d-5582-481e-9622-f2f9136cc276",
+        "Name":  "IPTEstVM01",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "SouthIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTEST01/providers/Microsoft.Compute/availabilitySets/IPTESTAS"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "https://iptest01diag159.blob.core.windows.net/"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTEST01/providers/Microsoft.Compute/virtualMachines/IPTEstVM01/extensions/Microsoft.Insights.VMDiagnosticsSettings",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTEST01/providers/Microsoft.Compute/virtualMachines/IPTEstVM01/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS2_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTest01/providers/Microsoft.Network/networkInterfaces/iptestvm019"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "IPTEstVM01",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftWindowsServer",
+                                                      "Offer":  "WindowsServer",
+                                                      "Sku":  "2012-R2-Datacenter",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "IPTEstVM01",
+                                              "Vhd":  {
+                                                          "Uri":  "https://iptest01disks177.blob.core.windows.net/vhds/IPTEstVM01201671615439.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+
+                                             ]
+                           },
+        "DataDiskNames":  [
+
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTest01/providers/Microsoft.Network/networkInterfaces/iptestvm019"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "IPTEST01",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTEST01/providers/Microsoft.Compute/virtualMachines/IPTestVM02",
+        "VmId":  "d9ff7b2b-6d51-4fbf-8300-a2f3b0d62064",
+        "Name":  "IPTestVM02",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "SouthIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTEST01/providers/Microsoft.Compute/availabilitySets/IPTESTAS"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "https://contosospha4.blob.core.windows.net/"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTEST01/providers/Microsoft.Compute/virtualMachines/IPTestVM02/extensions/Microsoft.Insights.VMDiagnosticsSettings",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTEST01/providers/Microsoft.Compute/virtualMachines/IPTestVM02/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS2_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTest01/providers/Microsoft.Network/networkInterfaces/iptestvm02197"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "IPTestVM02",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftWindowsServer",
+                                                      "Offer":  "WindowsServer",
+                                                      "Sku":  "2012-R2-Datacenter",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "IPTestVM02",
+                                              "Vhd":  {
+                                                          "Uri":  "https://contosospha1.blob.core.windows.net/vhds/IPTestVM02201671615392.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+
+                                             ]
+                           },
+        "DataDiskNames":  [
+
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/IPTest01/providers/Microsoft.Network/networkInterfaces/iptestvm02197"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "contosoWINSRV2016RG",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINSRV2016RG/providers/Microsoft.Compute/virtualMachines/contoso-win2016",
+        "VmId":  "bf7270ac-3bae-4199-aff9-7ff0e5abfc65",
+        "Name":  "contoso-win2016",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "CentralIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  null,
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "https://contosowinsrv2016rgdiag413.blob.core.windows.net/"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINSRV2016RG/providers/Microsoft.Compute/virtualMachines/contoso-win2016/extensions/IaaSAntimalware",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINSRV2016RG/providers/Microsoft.Compute/virtualMachines/contoso-win2016/extensions/Microsoft.Insights.VMDiagnosticsSettings",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINSRV2016RG/providers/Microsoft.Compute/virtualMachines/contoso-win2016/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS1_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWinSrv2016RG/providers/Microsoft.Network/networkInterfaces/contoso-win2016373"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "contoso-win2016",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftWindowsServer",
+                                                      "Offer":  "WindowsServer",
+                                                      "Sku":  "2016-Datacenter",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "contoso-win2016",
+                                              "Vhd":  {
+                                                          "Uri":  "https://contosowinsrv2016rgdisks511.blob.core.windows.net/vhds/contoso-win201620161207122629.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+
+                                             ]
+                           },
+        "DataDiskNames":  [
+
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWinSrv2016RG/providers/Microsoft.Network/networkInterfaces/contoso-win2016373"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "contosoWINSRV2016RG",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINSRV2016RG/providers/Microsoft.Compute/virtualMachines/contoso-WinSrv2",
+        "VmId":  "d6886bfe-1f5e-4452-bd7f-9f9ddde52f72",
+        "Name":  "contoso-WinSrv2",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "CentralIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  null,
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "https://contosowinsrv2016rgdiag413.blob.core.windows.net/"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINSRV2016RG/providers/Microsoft.Compute/virtualMachines/contoso-WinSrv2/extensions/Microsoft.Insights.VMDiagnosticsSettings",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           },
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWINSRV2016RG/providers/Microsoft.Compute/virtualMachines/contoso-WinSrv2/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS3_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWinSrv2016RG/providers/Microsoft.Network/networkInterfaces/contoso-winsrv2642"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "contoso-WinSrv2",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftWindowsServer",
+                                                      "Offer":  "WindowsServer",
+                                                      "Sku":  "2016-Datacenter",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "contoso-WinSrv2",
+                                              "Vhd":  {
+                                                          "Uri":  "https://contosowinsrv2016rgdisks511.blob.core.windows.net/vhds/contoso-WinSrv220161207154022.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+
+                                             ]
+                           },
+        "DataDiskNames":  [
+
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoWinSrv2016RG/providers/Microsoft.Network/networkInterfaces/contoso-winsrv2642"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "MDTEST",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/MDTEST/providers/Microsoft.Compute/virtualMachines/MDtest1",
+        "VmId":  "ff459cc1-b843-4fc1-8274-a0af28882753",
+        "Name":  "MDtest1",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "CentralIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/MDTEST/providers/Microsoft.Compute/availabilitySets/MDTESTAS1"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "https://mdtestdiag257.blob.core.windows.net/"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/MDTEST/providers/Microsoft.Compute/virtualMachines/MDtest1/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_DS3_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/MDTest/providers/Microsoft.Network/networkInterfaces/mdtest1505"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "MDtest1",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftWindowsServer",
+                                                      "Offer":  "WindowsServer",
+                                                      "Sku":  "2016-Datacenter",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "MDtest1",
+                                              "Vhd":  {
+                                                          "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDtest120170214082334.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+                                                 {
+                                                     "Lun":  0,
+                                                     "Name":  "MDtest1-20170214-083723",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-083723.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  1,
+                                                     "Name":  "MDtest1-20170214-083753",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-083753.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  2,
+                                                     "Name":  "MDtest1-20170214-083812",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-083812.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  3,
+                                                     "Name":  "MDtest1-20170214-083836",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-083836.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  4,
+                                                     "Name":  "MDtest1-20170214-083900",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-083900.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  5,
+                                                     "Name":  "MDtest1-20170214-083921",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-083921.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  6,
+                                                     "Name":  "MDtest1-20170214-083955",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-083955.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  7,
+                                                     "Name":  "MDtest1-20170214-084017",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-084017.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 }
+                                             ]
+                           },
+        "DataDiskNames":  [
+                              "MDtest1-20170214-083723",
+                              "MDtest1-20170214-083753",
+                              "MDtest1-20170214-083812",
+                              "MDtest1-20170214-083836",
+                              "MDtest1-20170214-083900",
+                              "MDtest1-20170214-083921",
+                              "MDtest1-20170214-083955",
+                              "MDtest1-20170214-084017"
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/MDTest/providers/Microsoft.Network/networkInterfaces/mdtest1505"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "MDTEST",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/MDTEST/providers/Microsoft.Compute/virtualMachines/MDTest2",
+        "VmId":  "b5bd31e7-3415-4185-84a5-3484aca7bad8",
+        "Name":  "MDTest2",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "CentralIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/MDTEST/providers/Microsoft.Compute/availabilitySets/MDTESTAS1"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "https://contosowinsrv2016rgdiag413.blob.core.windows.net/"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/MDTEST/providers/Microsoft.Compute/virtualMachines/MDTest2/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_F16"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/MDTest/providers/Microsoft.Network/networkInterfaces/mdtest2123"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "MDTest2",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftWindowsServer",
+                                                      "Offer":  "WindowsServer",
+                                                      "Sku":  "2016-Datacenter",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "MDTest2",
+                                              "Vhd":  {
+                                                          "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest220170214084458.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+                                                 {
+                                                     "Lun":  0,
+                                                     "Name":  "MDTest2-20170214-085252",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085252.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  1,
+                                                     "Name":  "MDTest2-20170214-085310",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085310.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  2,
+                                                     "Name":  "MDTest2-20170214-085326",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085326.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  3,
+                                                     "Name":  "MDTest2-20170214-085341",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085341.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  4,
+                                                     "Name":  "MDTest2-20170214-085357",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085357.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  5,
+                                                     "Name":  "MDTest2-20170214-085416",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085416.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  6,
+                                                     "Name":  "MDTest2-20170214-085432",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085432.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  7,
+                                                     "Name":  "MDTest2-20170214-085449",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085449.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  8,
+                                                     "Name":  "MDTest2-20170214-085504",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085504.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  9,
+                                                     "Name":  "MDTest2-20170214-085522",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085522.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  10,
+                                                     "Name":  "MDTest2-20170214-085541",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085541.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  11,
+                                                     "Name":  "MDTest2-20170214-085601",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085601.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  12,
+                                                     "Name":  "MDTest2-20170214-085624",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085624.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  13,
+                                                     "Name":  "MDTest2-20170214-085649",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085649.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  14,
+                                                     "Name":  "MDTest2-20170214-085735",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085735.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  23,
+                                                     "Name":  "MDTest2-20170214-085748",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085748.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  15,
+                                                     "Name":  "MDTest2-20170214-085807",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085807.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  16,
+                                                     "Name":  "MDTest2-20170214-085826",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085826.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  17,
+                                                     "Name":  "MDTest2-20170214-085850",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085850.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  18,
+                                                     "Name":  "MDTest2-20170214-085904",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085904.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  19,
+                                                     "Name":  "MDTest2-20170214-085921",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085921.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  20,
+                                                     "Name":  "MDTest2-20170214-085941",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085941.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  21,
+                                                     "Name":  "MDTest2-20170214-085959",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085959.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  22,
+                                                     "Name":  "MDTest2-20170214-090019",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090019.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  24,
+                                                     "Name":  "MDTest2-20170214-090207",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090207.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  25,
+                                                     "Name":  "MDTest2-20170214-090223",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090223.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  26,
+                                                     "Name":  "MDTest2-20170214-090242",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090242.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  27,
+                                                     "Name":  "MDTest2-20170214-090259",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090259.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  28,
+                                                     "Name":  "MDTest2-20170214-090317",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090317.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  29,
+                                                     "Name":  "MDTest2-20170214-090336",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090336.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  30,
+                                                     "Name":  "MDTest2-20170214-090355",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090355.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 },
+                                                 {
+                                                     "Lun":  31,
+                                                     "Name":  "MDTest2-20170214-090417",
+                                                     "Vhd":  {
+                                                                 "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090417.vhd"
+                                                             },
+                                                     "Image":  null,
+                                                     "Caching":  0,
+                                                     "CreateOption":  1,
+                                                     "DiskSizeGB":  1023,
+                                                     "ManagedDisk":  null
+                                                 }
+                                             ]
+                           },
+        "DataDiskNames":  [
+                              "MDTest2-20170214-085252",
+                              "MDTest2-20170214-085310",
+                              "MDTest2-20170214-085326",
+                              "MDTest2-20170214-085341",
+                              "MDTest2-20170214-085357",
+                              "MDTest2-20170214-085416",
+                              "MDTest2-20170214-085432",
+                              "MDTest2-20170214-085449",
+                              "MDTest2-20170214-085504",
+                              "MDTest2-20170214-085522",
+                              "MDTest2-20170214-085541",
+                              "MDTest2-20170214-085601",
+                              "MDTest2-20170214-085624",
+                              "MDTest2-20170214-085649",
+                              "MDTest2-20170214-085735",
+                              "MDTest2-20170214-085748",
+                              "MDTest2-20170214-085807",
+                              "MDTest2-20170214-085826",
+                              "MDTest2-20170214-085850",
+                              "MDTest2-20170214-085904",
+                              "MDTest2-20170214-085921",
+                              "MDTest2-20170214-085941",
+                              "MDTest2-20170214-085959",
+                              "MDTest2-20170214-090019",
+                              "MDTest2-20170214-090207",
+                              "MDTest2-20170214-090223",
+                              "MDTest2-20170214-090242",
+                              "MDTest2-20170214-090259",
+                              "MDTest2-20170214-090317",
+                              "MDTest2-20170214-090336",
+                              "MDTest2-20170214-090355",
+                              "MDTest2-20170214-090417"
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/MDTest/providers/Microsoft.Network/networkInterfaces/mdtest2123"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    },
+    {
+        "ResourceGroupName":  "MDTEST",
+        "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/MDTEST/providers/Microsoft.Compute/virtualMachines/MDtest3",
+        "VmId":  "8f0ba7f2-1cab-410c-b60e-a057ec8fa2b3",
+        "Name":  "MDtest3",
+        "Type":  "Microsoft.Compute/virtualMachines",
+        "Location":  "CentralIndia",
+        "LicenseType":  null,
+        "Tags":  {
+
+                 },
+        "AvailabilitySetReference":  {
+                                         "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/MDTEST/providers/Microsoft.Compute/availabilitySets/MDTESTAS1"
+                                     },
+        "DiagnosticsProfile":  {
+                                   "BootDiagnostics":  {
+                                                           "Enabled":  true,
+                                                           "StorageUri":  "https://contosowinsrv2016rgdiag413.blob.core.windows.net/"
+                                                       }
+                               },
+        "Extensions":  [
+                           {
+                               "ForceUpdateTag":  null,
+                               "Publisher":  null,
+                               "VirtualMachineExtensionType":  null,
+                               "TypeHandlerVersion":  null,
+                               "AutoUpgradeMinorVersion":  null,
+                               "Settings":  null,
+                               "ProtectedSettings":  null,
+                               "ProvisioningState":  null,
+                               "InstanceView":  null,
+                               "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/MDTEST/providers/Microsoft.Compute/virtualMachines/MDtest3/extensions/Monitoring",
+                               "Name":  null,
+                               "Type":  null,
+                               "Location":  null,
+                               "Tags":  null
+                           }
+                       ],
+        "HardwareProfile":  {
+                                "VmSize":  "Standard_D4_v2"
+                            },
+        "InstanceView":  null,
+        "NetworkProfile":  {
+                               "NetworkInterfaces":  [
+                                                         {
+                                                             "Primary":  null,
+                                                             "Id":  "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/MDTest/providers/Microsoft.Network/networkInterfaces/mdtest3811"
+                                                         }
+                                                     ]
+                           },
+        "OSProfile":  {
+                          "ComputerName":  "MDtest3",
+                          "AdminUsername":  "contosouser",
+                          "AdminPassword":  null,
+                          "CustomData":  null,
+                          "WindowsConfiguration":  {
+                                                       "ProvisionVMAgent":  true,
+                                                       "EnableAutomaticUpdates":  true,
+                                                       "TimeZone":  null,
+                                                       "AdditionalUnattendContent":  null,
+                                                       "WinRM":  null
+                                                   },
+                          "LinuxConfiguration":  null,
+                          "Secrets":  [
+
+                                      ]
+                      },
+        "Plan":  null,
+        "ProvisioningState":  "Succeeded",
+        "StorageProfile":  {
+                               "ImageReference":  {
+                                                      "Publisher":  "MicrosoftWindowsServer",
+                                                      "Offer":  "WindowsServer",
+                                                      "Sku":  "2016-Datacenter",
+                                                      "Version":  "latest",
+                                                      "Id":  null
+                                                  },
+                               "OsDisk":  {
+                                              "OsType":  0,
+                                              "EncryptionSettings":  null,
+                                              "Name":  "MDtest3",
+                                              "Vhd":  {
+                                                          "Uri":  "https://mdtestdisks404.blob.core.windows.net/vhds/MDtest320170214090627.vhd"
+                                                      },
+                                              "Image":  null,
+                                              "Caching":  2,
+                                              "CreateOption":  0,
+                                              "DiskSizeGB":  null,
+                                              "ManagedDisk":  null
+                                          },
+                               "DataDisks":  [
+
+                                             ]
+                           },
+        "DataDiskNames":  [
+
+                          ],
+        "NetworkInterfaceIDs":  [
+                                    "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/MDTest/providers/Microsoft.Network/networkInterfaces/mdtest3811"
+                                ],
+        "DisplayHint":  0,
+        "RequestId":  "894cffc2-2c40-43b9-be10-4d34b332e4bf",
+        "StatusCode":  200
+    }
+]

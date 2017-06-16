@@ -1,0 +1,375 @@
+{
+    "Context":  {
+                    "BlobEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                    "TableEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                    "QueueEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                    "FileEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                    "StorageAccount":  {
+                                           "BlobEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                           "QueueEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                           "TableEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                           "FileEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                           "BlobStorageUri":  {
+                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                  "SecondaryUri":  null
+                                                              },
+                                           "QueueStorageUri":  {
+                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                   "SecondaryUri":  null
+                                                               },
+                                           "TableStorageUri":  {
+                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                   "SecondaryUri":  null
+                                                               },
+                                           "FileStorageUri":  {
+                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                  "SecondaryUri":  null
+                                                              },
+                                           "Credentials":  {
+                                                               "SASToken":  null,
+                                                               "AccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                               "KeyName":  null,
+                                                               "IsAnonymous":  false,
+                                                               "IsSAS":  false,
+                                                               "IsSharedKey":  true,
+                                                               "SASSignature":  null
+                                                           }
+                                       },
+                    "StorageAccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                    "Context":  {
+                                    "BlobEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                    "TableEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                    "QueueEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                    "FileEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                    "StorageAccount":  {
+                                                           "BlobEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                           "QueueEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                           "TableEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                           "FileEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                           "BlobStorageUri":  {
+                                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                  "SecondaryUri":  null
+                                                                              },
+                                                           "QueueStorageUri":  {
+                                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                   "SecondaryUri":  null
+                                                                               },
+                                                           "TableStorageUri":  {
+                                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                   "SecondaryUri":  null
+                                                                               },
+                                                           "FileStorageUri":  {
+                                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                  "SecondaryUri":  null
+                                                                              },
+                                                           "Credentials":  {
+                                                                               "SASToken":  null,
+                                                                               "AccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                               "KeyName":  null,
+                                                                               "IsAnonymous":  false,
+                                                                               "IsSAS":  false,
+                                                                               "IsSharedKey":  true,
+                                                                               "SASSignature":  null
+                                                                           }
+                                                       },
+                                    "StorageAccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                    "Context":  {
+                                                    "BlobEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                    "TableEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                    "QueueEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                    "FileEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                    "StorageAccount":  {
+                                                                           "BlobEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                           "QueueEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                           "TableEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                           "FileEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                           "BlobStorageUri":  {
+                                                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                  "SecondaryUri":  null
+                                                                                              },
+                                                                           "QueueStorageUri":  {
+                                                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                   "SecondaryUri":  null
+                                                                                               },
+                                                                           "TableStorageUri":  {
+                                                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                   "SecondaryUri":  null
+                                                                                               },
+                                                                           "FileStorageUri":  {
+                                                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                  "SecondaryUri":  null
+                                                                                              },
+                                                                           "Credentials":  {
+                                                                                               "SASToken":  null,
+                                                                                               "AccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                               "KeyName":  null,
+                                                                                               "IsAnonymous":  false,
+                                                                                               "IsSAS":  false,
+                                                                                               "IsSharedKey":  true,
+                                                                                               "SASSignature":  null
+                                                                                           }
+                                                                       },
+                                                    "StorageAccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                    "Context":  {
+                                                                    "BlobEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                    "TableEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                    "QueueEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                    "FileEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                    "StorageAccount":  {
+                                                                                           "BlobEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                           "QueueEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                           "TableEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                           "FileEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                           "BlobStorageUri":  {
+                                                                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                                  "SecondaryUri":  null
+                                                                                                              },
+                                                                                           "QueueStorageUri":  {
+                                                                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                                   "SecondaryUri":  null
+                                                                                                               },
+                                                                                           "TableStorageUri":  {
+                                                                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                                   "SecondaryUri":  null
+                                                                                                               },
+                                                                                           "FileStorageUri":  {
+                                                                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                                  "SecondaryUri":  null
+                                                                                                              },
+                                                                                           "Credentials":  {
+                                                                                                               "SASToken":  null,
+                                                                                                               "AccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                                               "KeyName":  null,
+                                                                                                               "IsAnonymous":  false,
+                                                                                                               "IsSAS":  false,
+                                                                                                               "IsSharedKey":  true,
+                                                                                                               "SASSignature":  null
+                                                                                                           }
+                                                                                       },
+                                                                    "StorageAccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                    "Context":  {
+                                                                                    "BlobEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                    "TableEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                    "QueueEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                    "FileEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                    "StorageAccount":  {
+                                                                                                           "BlobEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                           "QueueEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                           "TableEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                           "FileEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                           "BlobStorageUri":  {
+                                                                                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                                                  "SecondaryUri":  null
+                                                                                                                              },
+                                                                                                           "QueueStorageUri":  {
+                                                                                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                                                   "SecondaryUri":  null
+                                                                                                                               },
+                                                                                                           "TableStorageUri":  {
+                                                                                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                                                   "SecondaryUri":  null
+                                                                                                                               },
+                                                                                                           "FileStorageUri":  {
+                                                                                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                                                  "SecondaryUri":  null
+                                                                                                                              },
+                                                                                                           "Credentials":  {
+                                                                                                                               "SASToken":  null,
+                                                                                                                               "AccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                                                               "KeyName":  null,
+                                                                                                                               "IsAnonymous":  false,
+                                                                                                                               "IsSAS":  false,
+                                                                                                                               "IsSharedKey":  true,
+                                                                                                                               "SASSignature":  null
+                                                                                                                           }
+                                                                                                       },
+                                                                                    "StorageAccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                    "Context":  {
+                                                                                                    "BlobEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                    "TableEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                    "QueueEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                    "FileEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                    "StorageAccount":  {
+                                                                                                                           "BlobEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                                           "QueueEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                                           "TableEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                                           "FileEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                                           "BlobStorageUri":  {
+                                                                                                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                                                                  "SecondaryUri":  null
+                                                                                                                                              },
+                                                                                                                           "QueueStorageUri":  {
+                                                                                                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                                                                   "SecondaryUri":  null
+                                                                                                                                               },
+                                                                                                                           "TableStorageUri":  {
+                                                                                                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                                                                   "SecondaryUri":  null
+                                                                                                                                               },
+                                                                                                                           "FileStorageUri":  {
+                                                                                                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                                                                  "SecondaryUri":  null
+                                                                                                                                              },
+                                                                                                                           "Credentials":  {
+                                                                                                                                               "SASToken":  null,
+                                                                                                                                               "AccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                                                                               "KeyName":  null,
+                                                                                                                                               "IsAnonymous":  false,
+                                                                                                                                               "IsSAS":  false,
+                                                                                                                                               "IsSharedKey":  true,
+                                                                                                                                               "SASSignature":  null
+                                                                                                                                           }
+                                                                                                                       },
+                                                                                                    "StorageAccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                                    "Context":  {
+                                                                                                                    "BlobEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                                    "TableEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                                    "QueueEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                                    "FileEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                                    "StorageAccount":  {
+                                                                                                                                           "BlobEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                                                           "QueueEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                                                           "TableEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                                                           "FileEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                                                           "BlobStorageUri":  {
+                                                                                                                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                                                                                  "SecondaryUri":  null
+                                                                                                                                                              },
+                                                                                                                                           "QueueStorageUri":  {
+                                                                                                                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                                                                                   "SecondaryUri":  null
+                                                                                                                                                               },
+                                                                                                                                           "TableStorageUri":  {
+                                                                                                                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                                                                                   "SecondaryUri":  null
+                                                                                                                                                               },
+                                                                                                                                           "FileStorageUri":  {
+                                                                                                                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                                                                                  "SecondaryUri":  null
+                                                                                                                                                              },
+                                                                                                                                           "Credentials":  {
+                                                                                                                                                               "SASToken":  null,
+                                                                                                                                                               "AccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                                                                                               "KeyName":  null,
+                                                                                                                                                               "IsAnonymous":  false,
+                                                                                                                                                               "IsSAS":  false,
+                                                                                                                                                               "IsSharedKey":  true,
+                                                                                                                                                               "SASSignature":  null
+                                                                                                                                                           }
+                                                                                                                                       },
+                                                                                                                    "StorageAccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                                                    "Context":  {
+                                                                                                                                    "BlobEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                                                    "TableEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                                                    "QueueEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                                                    "FileEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                                                    "StorageAccount":  {
+                                                                                                                                                           "BlobEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                                                                           "QueueEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                                                                           "TableEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                                                                           "FileEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                                                                           "BlobStorageUri":  {
+                                                                                                                                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                                                                                                  "SecondaryUri":  null
+                                                                                                                                                                              },
+                                                                                                                                                           "QueueStorageUri":  {
+                                                                                                                                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                                                                                                   "SecondaryUri":  null
+                                                                                                                                                                               },
+                                                                                                                                                           "TableStorageUri":  {
+                                                                                                                                                                                   "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                                                                                                   "SecondaryUri":  null
+                                                                                                                                                                               },
+                                                                                                                                                           "FileStorageUri":  {
+                                                                                                                                                                                  "PrimaryUri":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                                                                                                  "SecondaryUri":  null
+                                                                                                                                                                              },
+                                                                                                                                                           "Credentials":  {
+                                                                                                                                                                               "SASToken":  null,
+                                                                                                                                                                               "AccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                                                                                                               "KeyName":  null,
+                                                                                                                                                                               "IsAnonymous":  false,
+                                                                                                                                                                               "IsSAS":  false,
+                                                                                                                                                                               "IsSharedKey":  true,
+                                                                                                                                                                               "SASSignature":  null
+                                                                                                                                                                           }
+                                                                                                                                                       },
+                                                                                                                                    "StorageAccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                                                                    "Context":  {
+                                                                                                                                                    "BlobEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                                                                    "TableEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                                                                    "QueueEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                                                                    "FileEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                                                                    "StorageAccount":  {
+                                                                                                                                                                           "BlobEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                                                                                           "QueueEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                                                                                           "TableEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                                                                                           "FileEndpoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                                                                                           "BlobStorageUri":  "Primary = \u0027https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/\u0027; Secondary = \u0027\u0027",
+                                                                                                                                                                           "QueueStorageUri":  "Primary = \u0027https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/\u0027; Secondary = \u0027\u0027",
+                                                                                                                                                                           "TableStorageUri":  "Primary = \u0027https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/\u0027; Secondary = \u0027\u0027",
+                                                                                                                                                                           "FileStorageUri":  "Primary = \u0027https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/\u0027; Secondary = \u0027\u0027",
+                                                                                                                                                                           "Credentials":  "Microsoft.WindowsAzure.Storage.Auth.StorageCredentials"
+                                                                                                                                                                       },
+                                                                                                                                                    "StorageAccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                                                                                    "Context":  {
+                                                                                                                                                                    "BlobEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                                                                                                                                                                    "TableEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                                                                                                                                                                    "QueueEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                                                                                                                                                                    "FileEndPoint":  "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/",
+                                                                                                                                                                    "StorageAccount":  "BlobEndpoint=https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/;QueueEndpoint=https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/;TableEndpoint=https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/;FileEndpoint=https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/;AccountName=rwportalvhdsjvb9tjbnm2wj;AccountKey=[key hidden]",
+                                                                                                                                                                    "StorageAccountName":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                                                                                                    "Context":  "Microsoft.WindowsAzure.Commands.Common.Storage.LazyAzureStorageContext",
+                                                                                                                                                                    "Name":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                                                                                                    "EndPointSuffix":  "core.windows.net/"
+                                                                                                                                                                },
+                                                                                                                                                    "Name":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                                                                                    "EndPointSuffix":  "core.windows.net/"
+                                                                                                                                                },
+                                                                                                                                    "Name":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                                                                    "EndPointSuffix":  "core.windows.net/"
+                                                                                                                                },
+                                                                                                                    "Name":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                                                    "EndPointSuffix":  "core.windows.net/"
+                                                                                                                },
+                                                                                                    "Name":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                                    "EndPointSuffix":  "core.windows.net/"
+                                                                                                },
+                                                                                    "Name":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                                    "EndPointSuffix":  "core.windows.net/"
+                                                                                },
+                                                                    "Name":  "rwportalvhdsjvb9tjbnm2wj",
+                                                                    "EndPointSuffix":  "core.windows.net/"
+                                                                },
+                                                    "Name":  "rwportalvhdsjvb9tjbnm2wj",
+                                                    "EndPointSuffix":  "core.windows.net/"
+                                                },
+                                    "Name":  "rwportalvhdsjvb9tjbnm2wj",
+                                    "EndPointSuffix":  "core.windows.net/"
+                                },
+                    "Name":  "rwportalvhdsjvb9tjbnm2wj",
+                    "EndPointSuffix":  "core.windows.net/"
+                },
+    "StorageAccountDescription":  "Implicitly created storage service",
+    "AffinityGroup":  null,
+    "Location":  "Southeast Asia",
+    "GeoPrimaryLocation":  "Southeast Asia",
+    "GeoSecondaryLocation":  "",
+    "Label":  "rwportalvhdsjvb9tjbnm2wj",
+    "StorageAccountStatus":  "Created",
+    "StatusOfPrimary":  "Available",
+    "StatusOfSecondary":  null,
+    "Endpoints":  [
+                      "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/",
+                      "https://rwportalvhdsjvb9tjbnm2wj.queue.core.windows.net/",
+                      "https://rwportalvhdsjvb9tjbnm2wj.table.core.windows.net/",
+                      "https://rwportalvhdsjvb9tjbnm2wj.file.core.windows.net/"
+                  ],
+    "AccountType":  "Standard_LRS",
+    "LastGeoFailoverTime":  null,
+    "MigrationState":  null,
+    "StorageAccountName":  "rwportalvhdsjvb9tjbnm2wj",
+    "OperationDescription":  "Get-AzureStorageAccount",
+    "OperationId":  "edcf8b3b-2d93-721b-ab58-8fb523a6e43b",
+    "OperationStatus":  "Succeeded"
+}

@@ -1,0 +1,15 @@
+{
+  "rules": [
+
+    {
+      "ruleName": "storageAccountInventory",
+      "ruleType": "StorageAccount",
+      "moduleFilePath": "storageinventory.py"
+    },
+    {
+      "ruleName": "vmInventory",
+      "ruleType": "VirtualMachines",
+      "moduleFilePath": "vminventory.py"
+    }
+  ]
+}

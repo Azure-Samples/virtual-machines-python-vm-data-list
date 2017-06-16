@@ -1,0 +1,26 @@
+VM Name,Type,Region,Resource Group,Availability Set,VM Size,OS Disk Storage Account, # of Data Disks
+contosowinvm01,ARM,northcentralus,contosoWINVM01,None,Standard_D14_v2,contosowinvm011353,0
+contosowinvm2,ARM,northcentralus,contosoWINVM2,contosoWINVM2,Standard_DS2_v2,contosowinvm2disks416,0
+ad-bdc,ARM,SouthIndia,contosoSPHA,ADAVAILABILITYSET,Standard_DS2_v2,contosospha1,1
+ad-pdc,ARM,SouthIndia,contosoSPHA,ADAVAILABILITYSET,Standard_DS2_v2,contosospha1,1
+sps-app-0,ARM,SouthIndia,contosoSPHA,SPAPPAVAILABILITYSET,Standard_DS3_v2,contosospha3,1
+sps-app-1,ARM,SouthIndia,contosoSPHA,SPAPPAVAILABILITYSET,Standard_DS3_v2,contosospha3,1
+sps-web-0,ARM,SouthIndia,contosoSPHA,SPWEBAVAILABILITYSET,Standard_DS3_v2,contosospha3,1
+sps-web-1,ARM,SouthIndia,contosoSPHA,SPWEBAVAILABILITYSET,Standard_DS3_v2,contosospha3,1
+sql-0,ARM,SouthIndia,contosoSPHA,SQLAVAILABILITYSET,Standard_DS3_v2,contosospha2,2
+sql-1,ARM,SouthIndia,contosoSPHA,SQLAVAILABILITYSET,Standard_DS3_v2,contosospha2,2
+sql-w,ARM,SouthIndia,contosoSPHA,SQLAVAILABILITYSET,Standard_DS1_v2,contosospha2,1
+contosoubuntu16,ARM,SouthIndia,contosoUBUNTU,None,Standard_DS2_v2,contosoubuntu2280,0
+contosowinvm03,ARM,SouthIndia,contosoWINVM03,None,Standard_DS15_v2,contosowinvm032376,0
+IPTest03,ARM,SouthIndia,IPTEST01,IPTESTAS,Standard_DS2_v2,contosospha1,0
+IPTEstVM01,ARM,SouthIndia,IPTEST01,IPTESTAS,Standard_DS2_v2,iptest01disks177,0
+IPTestVM02,ARM,SouthIndia,IPTEST01,IPTESTAS,Standard_DS2_v2,contosospha1,0
+contoso-win2016,ARM,CentralIndia,contosoWINSRV2016RG,None,Standard_DS1_v2,contosowinsrv2016rgdisks511,0
+contoso-WinSrv2,ARM,CentralIndia,contosoWINSRV2016RG,None,Standard_DS3_v2,contosowinsrv2016rgdisks511,0
+MDtest1,ARM,CentralIndia,MDTEST,MDTESTAS1,Standard_DS3_v2,mdtestdisks404,8
+MDTest2,ARM,CentralIndia,MDTEST,MDTESTAS1,Standard_F16,mdtestdisks404,32
+MDtest3,ARM,CentralIndia,MDTEST,MDTESTAS1,Standard_D4_v2,mdtestdisks404,0
+contosoASTest1,ASM,N/A,N/A,contosoASTest,Standard_D2,rwportalvhdsjvb9tjbnm2wj,2
+contosoastest03,ASM,N/A,N/A,contosoAS2,Standard_D1,rwportalvhdsjvb9tjbnm2wj,0
+contosoastest2,ASM,N/A,N/A,contosoAS2,Standard_D2,rwportalvhdsjvb9tjbnm2wj,0
+contosotest04,ASM,N/A,N/A,contosotest04as,Standard_D1,rwportalvhdsjvb9tjbnm2wj,0

@@ -1,0 +1,855 @@
+[
+    {
+        "DeploymentName":  "contosoASTest1",
+        "Name":  "contosoASTest1",
+        "Label":  null,
+        "VM":  {
+                   "AvailabilitySetName":  "contosoASTest",
+                   "ConfigurationSets":  [
+                                             {
+                                                 "ConfigurationSetType":  "NetworkConfiguration",
+                                                 "InputEndpoints":  [
+                                                                        {
+                                                                            "LoadBalancedEndpointSetName":  null,
+                                                                            "LocalPort":  5986,
+                                                                            "Name":  "PowerShell",
+                                                                            "Port":  5986,
+                                                                            "LoadBalancerProbe":  null,
+                                                                            "Protocol":  "tcp",
+                                                                            "Vip":  "13.76.215.253",
+                                                                            "EnableDirectServerReturn":  false,
+                                                                            "EndpointAccessControlList":  null,
+                                                                            "LoadBalancerName":  null,
+                                                                            "IdleTimeoutInMinutes":  null,
+                                                                            "LoadBalancerDistribution":  null,
+                                                                            "VirtualIPName":  null,
+                                                                            "ExtensionData":  null
+                                                                        },
+                                                                        {
+                                                                            "LoadBalancedEndpointSetName":  null,
+                                                                            "LocalPort":  3389,
+                                                                            "Name":  "Remote Desktop",
+                                                                            "Port":  50684,
+                                                                            "LoadBalancerProbe":  null,
+                                                                            "Protocol":  "tcp",
+                                                                            "Vip":  "13.76.215.253",
+                                                                            "EnableDirectServerReturn":  false,
+                                                                            "EndpointAccessControlList":  null,
+                                                                            "LoadBalancerName":  null,
+                                                                            "IdleTimeoutInMinutes":  null,
+                                                                            "LoadBalancerDistribution":  null,
+                                                                            "VirtualIPName":  null,
+                                                                            "ExtensionData":  null
+                                                                        }
+                                                                    ],
+                                                 "SubnetNames":  [
+
+                                                                 ],
+                                                 "VirtualIPGroups":  null,
+                                                 "StaticVirtualNetworkIPAddress":  null,
+                                                 "PublicIPs":  [
+
+                                                               ],
+                                                 "NetworkInterfaces":  [
+
+                                                                       ],
+                                                 "NetworkSecurityGroup":  null,
+                                                 "IPForwarding":  null,
+                                                 "ExtensionData":  null
+                                             }
+                                         ],
+                   "DataVirtualHardDisks":  [
+                                                {
+                                                    "HostCaching":  "None",
+                                                    "DiskLabel":  null,
+                                                    "DiskName":  "contosoASTest1-contosoASTest1-0-201701060342360333",
+                                                    "Lun":  0,
+                                                    "LogicalDiskSizeInGB":  127,
+                                                    "MediaLink":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/vhds/contosoASTest1-contosoASTest1-0106-1.vhd",
+                                                    "SourceMediaLink":  null,
+                                                    "IOType":  "Standard",
+                                                    "ExtensionData":  null
+                                                },
+                                                {
+                                                    "HostCaching":  "ReadWrite",
+                                                    "DiskLabel":  null,
+                                                    "DiskName":  "contosoASTest1-contosoASTest1-1-201701060344590640",
+                                                    "Lun":  1,
+                                                    "LogicalDiskSizeInGB":  256,
+                                                    "MediaLink":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/vhds/contosoASTest1-contosoASTest1-0106-2.vhd",
+                                                    "SourceMediaLink":  null,
+                                                    "IOType":  "Standard",
+                                                    "ExtensionData":  null
+                                                }
+                                            ],
+                   "Label":  null,
+                   "OSVirtualHardDisk":  {
+                                             "HostCaching":  "ReadWrite",
+                                             "DiskLabel":  null,
+                                             "DiskName":  "contosoASTest1-contosoASTest1-0-201611211044550279",
+                                             "MediaLink":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/vhds/contosoASTest1-contosoASTest1-2016-11-21.vhd",
+                                             "SourceImageName":  "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20161109-en.us-127GB.vhd",
+                                             "OS":  "Windows",
+                                             "IOType":  "Standard",
+                                             "ResizedSizeInGB":  null,
+                                             "ExtensionData":  null
+                                         },
+                   "RoleName":  "contosoASTest1",
+                   "RoleSize":  "Standard_D2",
+                   "RoleType":  "PersistentVMRole",
+                   "WinRMCertificate":  null,
+                   "X509Certificates":  null,
+                   "NoExportPrivateKey":  false,
+                   "NoRDPEndpoint":  false,
+                   "NoSSHEndpoint":  false,
+                   "DefaultWinRmCertificateThumbprint":  "B8E44CED8B370F2AA12E307D232AF9D6A7DCE501",
+                   "ProvisionGuestAgent":  true,
+                   "ResourceExtensionReferences":  [
+                                                       {
+                                                           "ReferenceName":  "Monitoring",
+                                                           "Publisher":  "Microsoft.Azure.Security",
+                                                           "Name":  "Monitoring",
+                                                           "Version":  "3.3",
+                                                           "ResourceExtensionParameterValues":  [
+                                                                                                    {
+                                                                                                        "Key":  "PublicConfiguration",
+                                                                                                        "Value":  "{\"services\":[{\"id\":\"ASMSERVICE\",\"version\":\"0802422056C50265B03D967A253EC3A674F823859217065D159F529C3D1884C4\",\"scanners\":[{\"name\":\"baselinescan\",\"frequency\":\"PT12H\"},{\"name\":\"patchscan\",\"frequency\":\"PT12H\"}]},{\"id\":\"DETECTIONSERVICE\",\"version\":\"E893DECC057020C6ECCBAB7B57F9BC8CEB81E3CB205F4337C7FF1052D9621E2C\"},{\"id\":\"RELIANCESERVICE\",\"version\":\"4F8F99F5BBFB192513FDA17D0EB507C93B24D48A3D56351313C5BA6E29CF2DD8\"}],\"subscriptionID\":\"7b163b55-8110-4062-918b-a061af34f94f\",\"resourceGroupName\":\"contosoASTest1\",\"vmName\":\"contosoASTest1\",\"vmVersion\":\"ClassicCompute\"}",
+                                                                                                        "SecureValue":  null,
+                                                                                                        "Type":  "Public",
+                                                                                                        "ExtensionData":  null
+                                                                                                    }
+                                                                                                ],
+                                                           "State":  "Enable",
+                                                           "ForceUpdate":  null,
+                                                           "ExtensionData":  null
+                                                       },
+                                                       {
+                                                           "ReferenceName":  "BGInfo",
+                                                           "Publisher":  "Microsoft.Compute",
+                                                           "Name":  "BGInfo",
+                                                           "Version":  "1.*",
+                                                           "ResourceExtensionParameterValues":  [
+
+                                                                                                ],
+                                                           "State":  "Enable",
+                                                           "ForceUpdate":  null,
+                                                           "ExtensionData":  null
+                                                       }
+                                                   ],
+                   "DataVirtualHardDisksToBeDeleted":  null,
+                   "VMImageInput":  null,
+                   "DebugSettings":  null,
+                   "MigrationState":  null,
+                   "LicenseType":  null
+               },
+        "InstanceStatus":  "ReadyRole",
+        "IpAddress":  "100.72.0.47",
+        "InstanceStateDetails":  "",
+        "PowerState":  "Started",
+        "InstanceErrorCode":  null,
+        "InstanceFaultDomain":  "0",
+        "InstanceName":  "contosoASTest1",
+        "InstanceUpgradeDomain":  "0",
+        "InstanceSize":  "Standard_D2",
+        "HostName":  "contosoASTest1",
+        "AvailabilitySetName":  "contosoASTest",
+        "DNSName":  "http://contosoastest1.cloudapp.net/",
+        "Status":  "ReadyRole",
+        "GuestAgentStatus":  {
+                                 "ProtocolVersion":  "1.0",
+                                 "TimestampUtc":  "\/Date(1488872532000)\/",
+                                 "GuestAgentVersion":  "2.7.1198.788",
+                                 "Status":  "Ready",
+                                 "Code":  null,
+                                 "Message":  null,
+                                 "FormattedMessage":  {
+                                                          "Language":  "en-US",
+                                                          "Message":  "GuestAgent is running and accepting new configurations.",
+                                                          "ExtensionData":  null
+                                                      },
+                                 "ExtensionData":  null
+                             },
+        "ResourceExtensionStatusList":  [
+                                            {
+                                                "HandlerName":  "Microsoft.Azure.Security.Monitoring",
+                                                "Version":  "3.3.0.0",
+                                                "Status":  "Ready",
+                                                "Code":  null,
+                                                "Message":  null,
+                                                "FormattedMessage":  null,
+                                                "ExtensionSettingStatus":  {
+                                                                               "TimestampUtc":  "\/Date(1484331336000)\/",
+                                                                               "ConfigurationAppliedTimeUtc":  "\/Date(-62135596800000)\/",
+                                                                               "Name":  "AsmExtension",
+                                                                               "Operation":  "Enable",
+                                                                               "Status":  "Success",
+                                                                               "Code":  0,
+                                                                               "Message":  null,
+                                                                               "FormattedMessage":  {
+                                                                                                        "Language":  "en-US",
+                                                                                                        "Message":  "ASM Extension enabled successfully",
+                                                                                                        "ExtensionData":  null
+                                                                                                    },
+                                                                               "SubStatusList":  [
+
+                                                                                                 ],
+                                                                               "ExtensionData":  null
+                                                                           },
+                                                "ExtensionData":  null
+                                            },
+                                            {
+                                                "HandlerName":  "Microsoft.Compute.BGInfo",
+                                                "Version":  "1.2.2",
+                                                "Status":  "Ready",
+                                                "Code":  null,
+                                                "Message":  null,
+                                                "FormattedMessage":  {
+                                                                         "Language":  "en-US",
+                                                                         "Message":  "Plugin enabled (name: Microsoft.Compute.BGInfo, version: 1.2.2).",
+                                                                         "ExtensionData":  null
+                                                                     },
+                                                "ExtensionSettingStatus":  null,
+                                                "ExtensionData":  null
+                                            }
+                                        ],
+        "PublicIPAddress":  "",
+        "PublicIPName":  "",
+        "PublicIPDomainNameLabel":  "",
+        "PublicIPFqdns":  [
+
+                          ],
+        "NetworkInterfaces":  [
+
+                              ],
+        "VirtualNetworkName":  null,
+        "RemoteAccessCertificateThumbprint":  "52A9F002D4152EE0DDC5DE2A853A7316255A9911",
+        "ServiceName":  "contosoASTest1",
+        "OperationDescription":  "Get-AzureVM",
+        "OperationId":  "1e1bdb2cac3374b19b03911928b24589",
+        "OperationStatus":  "OK"
+    },
+    {
+        "DeploymentName":  "contosoastest2",
+        "Name":  "contosoastest03",
+        "Label":  null,
+        "VM":  {
+                   "AvailabilitySetName":  "contosoAS2",
+                   "ConfigurationSets":  [
+                                             {
+                                                 "ConfigurationSetType":  "NetworkConfiguration",
+                                                 "InputEndpoints":  [
+                                                                        {
+                                                                            "LoadBalancedEndpointSetName":  null,
+                                                                            "LocalPort":  5986,
+                                                                            "Name":  "PowerShell",
+                                                                            "Port":  63490,
+                                                                            "LoadBalancerProbe":  null,
+                                                                            "Protocol":  "tcp",
+                                                                            "Vip":  "207.46.230.216",
+                                                                            "EnableDirectServerReturn":  false,
+                                                                            "EndpointAccessControlList":  null,
+                                                                            "LoadBalancerName":  null,
+                                                                            "IdleTimeoutInMinutes":  null,
+                                                                            "LoadBalancerDistribution":  null,
+                                                                            "VirtualIPName":  null,
+                                                                            "ExtensionData":  null
+                                                                        },
+                                                                        {
+                                                                            "LoadBalancedEndpointSetName":  null,
+                                                                            "LocalPort":  3389,
+                                                                            "Name":  "Remote Desktop",
+                                                                            "Port":  64313,
+                                                                            "LoadBalancerProbe":  null,
+                                                                            "Protocol":  "tcp",
+                                                                            "Vip":  "207.46.230.216",
+                                                                            "EnableDirectServerReturn":  false,
+                                                                            "EndpointAccessControlList":  null,
+                                                                            "LoadBalancerName":  null,
+                                                                            "IdleTimeoutInMinutes":  null,
+                                                                            "LoadBalancerDistribution":  null,
+                                                                            "VirtualIPName":  null,
+                                                                            "ExtensionData":  null
+                                                                        }
+                                                                    ],
+                                                 "SubnetNames":  [
+
+                                                                 ],
+                                                 "VirtualIPGroups":  null,
+                                                 "StaticVirtualNetworkIPAddress":  null,
+                                                 "PublicIPs":  [
+
+                                                               ],
+                                                 "NetworkInterfaces":  [
+
+                                                                       ],
+                                                 "NetworkSecurityGroup":  null,
+                                                 "IPForwarding":  null,
+                                                 "ExtensionData":  null
+                                             }
+                                         ],
+                   "DataVirtualHardDisks":  [
+
+                                            ],
+                   "Label":  null,
+                   "OSVirtualHardDisk":  {
+                                             "HostCaching":  "ReadWrite",
+                                             "DiskLabel":  null,
+                                             "DiskName":  "contosoastest2-contosoastest03-0-201611211210320948",
+                                             "MediaLink":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/vhds/contosoastest2-contosoastest03-2016-11-21.vhd",
+                                             "SourceImageName":  "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20161109-en.us-127GB.vhd",
+                                             "OS":  "Windows",
+                                             "IOType":  "Standard",
+                                             "ResizedSizeInGB":  null,
+                                             "ExtensionData":  null
+                                         },
+                   "RoleName":  "contosoastest03",
+                   "RoleSize":  "Standard_D1",
+                   "RoleType":  "PersistentVMRole",
+                   "WinRMCertificate":  null,
+                   "X509Certificates":  null,
+                   "NoExportPrivateKey":  false,
+                   "NoRDPEndpoint":  false,
+                   "NoSSHEndpoint":  false,
+                   "DefaultWinRmCertificateThumbprint":  "C8DBC4F4893E04075067BDC21E31F0D8D436A9CC",
+                   "ProvisionGuestAgent":  true,
+                   "ResourceExtensionReferences":  [
+                                                       {
+                                                           "ReferenceName":  "Monitoring",
+                                                           "Publisher":  "Microsoft.Azure.Security",
+                                                           "Name":  "Monitoring",
+                                                           "Version":  "3.3",
+                                                           "ResourceExtensionParameterValues":  [
+                                                                                                    {
+                                                                                                        "Key":  "PublicConfiguration",
+                                                                                                        "Value":  "{\"services\":[{\"id\":\"ASMSERVICE\",\"version\":\"0802422056C50265B03D967A253EC3A674F823859217065D159F529C3D1884C4\",\"scanners\":[{\"name\":\"baselinescan\",\"frequency\":\"PT12H\"},{\"name\":\"patchscan\",\"frequency\":\"PT12H\"}]},{\"id\":\"DETECTIONSERVICE\",\"version\":\"E893DECC057020C6ECCBAB7B57F9BC8CEB81E3CB205F4337C7FF1052D9621E2C\"},{\"id\":\"RELIANCESERVICE\",\"version\":\"4F8F99F5BBFB192513FDA17D0EB507C93B24D48A3D56351313C5BA6E29CF2DD8\"}],\"subscriptionID\":\"7b163b55-8110-4062-918b-a061af34f94f\",\"resourceGroupName\":\"contosoastest2\",\"vmName\":\"contosoastest03\",\"vmVersion\":\"ClassicCompute\"}",
+                                                                                                        "SecureValue":  null,
+                                                                                                        "Type":  "Public",
+                                                                                                        "ExtensionData":  null
+                                                                                                    }
+                                                                                                ],
+                                                           "State":  "Enable",
+                                                           "ForceUpdate":  null,
+                                                           "ExtensionData":  null
+                                                       },
+                                                       {
+                                                           "ReferenceName":  "BGInfo",
+                                                           "Publisher":  "Microsoft.Compute",
+                                                           "Name":  "BGInfo",
+                                                           "Version":  "1.*",
+                                                           "ResourceExtensionParameterValues":  [
+
+                                                                                                ],
+                                                           "State":  "Enable",
+                                                           "ForceUpdate":  null,
+                                                           "ExtensionData":  null
+                                                       }
+                                                   ],
+                   "DataVirtualHardDisksToBeDeleted":  null,
+                   "VMImageInput":  null,
+                   "DebugSettings":  null,
+                   "MigrationState":  null,
+                   "LicenseType":  null
+               },
+        "InstanceStatus":  "ReadyRole",
+        "IpAddress":  "100.73.216.19",
+        "InstanceStateDetails":  "",
+        "PowerState":  "Started",
+        "InstanceErrorCode":  null,
+        "InstanceFaultDomain":  "1",
+        "InstanceName":  "contosoastest03",
+        "InstanceUpgradeDomain":  "1",
+        "InstanceSize":  "Standard_D1",
+        "HostName":  "contosoastest03",
+        "AvailabilitySetName":  "contosoAS2",
+        "DNSName":  "http://contosoastest2.cloudapp.net/",
+        "Status":  "ReadyRole",
+        "GuestAgentStatus":  {
+                                 "ProtocolVersion":  "1.0",
+                                 "TimestampUtc":  "\/Date(1488872526000)\/",
+                                 "GuestAgentVersion":  "2.7.1198.788",
+                                 "Status":  "Ready",
+                                 "Code":  null,
+                                 "Message":  null,
+                                 "FormattedMessage":  {
+                                                          "Language":  "en-US",
+                                                          "Message":  "GuestAgent is running and accepting new configurations.",
+                                                          "ExtensionData":  null
+                                                      },
+                                 "ExtensionData":  null
+                             },
+        "ResourceExtensionStatusList":  [
+                                            {
+                                                "HandlerName":  "Microsoft.Azure.Security.Monitoring",
+                                                "Version":  "3.3.0.0",
+                                                "Status":  "Ready",
+                                                "Code":  null,
+                                                "Message":  null,
+                                                "FormattedMessage":  null,
+                                                "ExtensionSettingStatus":  {
+                                                                               "TimestampUtc":  "\/Date(1484331332000)\/",
+                                                                               "ConfigurationAppliedTimeUtc":  "\/Date(-62135596800000)\/",
+                                                                               "Name":  "AsmExtension",
+                                                                               "Operation":  "Enable",
+                                                                               "Status":  "Success",
+                                                                               "Code":  0,
+                                                                               "Message":  null,
+                                                                               "FormattedMessage":  {
+                                                                                                        "Language":  "en-US",
+                                                                                                        "Message":  "Config Sequence number is the same. Return",
+                                                                                                        "ExtensionData":  null
+                                                                                                    },
+                                                                               "SubStatusList":  [
+
+                                                                                                 ],
+                                                                               "ExtensionData":  null
+                                                                           },
+                                                "ExtensionData":  null
+                                            },
+                                            {
+                                                "HandlerName":  "Microsoft.Compute.BGInfo",
+                                                "Version":  "1.2.2",
+                                                "Status":  "Ready",
+                                                "Code":  null,
+                                                "Message":  null,
+                                                "FormattedMessage":  {
+                                                                         "Language":  "en-US",
+                                                                         "Message":  "Plugin enabled (name: Microsoft.Compute.BGInfo, version: 1.2.2).",
+                                                                         "ExtensionData":  null
+                                                                     },
+                                                "ExtensionSettingStatus":  null,
+                                                "ExtensionData":  null
+                                            }
+                                        ],
+        "PublicIPAddress":  "",
+        "PublicIPName":  "",
+        "PublicIPDomainNameLabel":  "",
+        "PublicIPFqdns":  [
+
+                          ],
+        "NetworkInterfaces":  [
+
+                              ],
+        "VirtualNetworkName":  null,
+        "RemoteAccessCertificateThumbprint":  "51BE1026396266B109FDDB4A149FE08D76D7069F",
+        "ServiceName":  "contosoastest2",
+        "OperationDescription":  "Get-AzureVM",
+        "OperationId":  "b4edf60c0be57f02a2d98264c676b6c5",
+        "OperationStatus":  "OK"
+    },
+    {
+        "DeploymentName":  "contosoastest2",
+        "Name":  "contosoastest2",
+        "Label":  null,
+        "VM":  {
+                   "AvailabilitySetName":  "contosoAS2",
+                   "ConfigurationSets":  [
+                                             {
+                                                 "ConfigurationSetType":  "NetworkConfiguration",
+                                                 "InputEndpoints":  [
+                                                                        {
+                                                                            "LoadBalancedEndpointSetName":  null,
+                                                                            "LocalPort":  5986,
+                                                                            "Name":  "PowerShell",
+                                                                            "Port":  5986,
+                                                                            "LoadBalancerProbe":  null,
+                                                                            "Protocol":  "tcp",
+                                                                            "Vip":  "207.46.230.216",
+                                                                            "EnableDirectServerReturn":  false,
+                                                                            "EndpointAccessControlList":  null,
+                                                                            "LoadBalancerName":  null,
+                                                                            "IdleTimeoutInMinutes":  null,
+                                                                            "LoadBalancerDistribution":  null,
+                                                                            "VirtualIPName":  null,
+                                                                            "ExtensionData":  null
+                                                                        },
+                                                                        {
+                                                                            "LoadBalancedEndpointSetName":  null,
+                                                                            "LocalPort":  3389,
+                                                                            "Name":  "Remote Desktop",
+                                                                            "Port":  50659,
+                                                                            "LoadBalancerProbe":  null,
+                                                                            "Protocol":  "tcp",
+                                                                            "Vip":  "207.46.230.216",
+                                                                            "EnableDirectServerReturn":  false,
+                                                                            "EndpointAccessControlList":  null,
+                                                                            "LoadBalancerName":  null,
+                                                                            "IdleTimeoutInMinutes":  null,
+                                                                            "LoadBalancerDistribution":  null,
+                                                                            "VirtualIPName":  null,
+                                                                            "ExtensionData":  null
+                                                                        }
+                                                                    ],
+                                                 "SubnetNames":  [
+
+                                                                 ],
+                                                 "VirtualIPGroups":  null,
+                                                 "StaticVirtualNetworkIPAddress":  null,
+                                                 "PublicIPs":  [
+
+                                                               ],
+                                                 "NetworkInterfaces":  [
+
+                                                                       ],
+                                                 "NetworkSecurityGroup":  null,
+                                                 "IPForwarding":  null,
+                                                 "ExtensionData":  null
+                                             }
+                                         ],
+                   "DataVirtualHardDisks":  [
+
+                                            ],
+                   "Label":  null,
+                   "OSVirtualHardDisk":  {
+                                             "HostCaching":  "ReadWrite",
+                                             "DiskLabel":  null,
+                                             "DiskName":  "contosoastest2-contosoastest2-0-201611211131520281",
+                                             "MediaLink":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/vhds/contosoastest2-contosoastest2-2016-11-21.vhd",
+                                             "SourceImageName":  "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20161109-en.us-127GB.vhd",
+                                             "OS":  "Windows",
+                                             "IOType":  "Standard",
+                                             "ResizedSizeInGB":  null,
+                                             "ExtensionData":  null
+                                         },
+                   "RoleName":  "contosoastest2",
+                   "RoleSize":  "Standard_D2",
+                   "RoleType":  "PersistentVMRole",
+                   "WinRMCertificate":  null,
+                   "X509Certificates":  null,
+                   "NoExportPrivateKey":  false,
+                   "NoRDPEndpoint":  false,
+                   "NoSSHEndpoint":  false,
+                   "DefaultWinRmCertificateThumbprint":  "C8DBC4F4893E04075067BDC21E31F0D8D436A9CC",
+                   "ProvisionGuestAgent":  true,
+                   "ResourceExtensionReferences":  [
+                                                       {
+                                                           "ReferenceName":  "Monitoring",
+                                                           "Publisher":  "Microsoft.Azure.Security",
+                                                           "Name":  "Monitoring",
+                                                           "Version":  "3.3",
+                                                           "ResourceExtensionParameterValues":  [
+                                                                                                    {
+                                                                                                        "Key":  "PublicConfiguration",
+                                                                                                        "Value":  "{\"services\":[{\"id\":\"ASMSERVICE\",\"version\":\"0802422056C50265B03D967A253EC3A674F823859217065D159F529C3D1884C4\",\"scanners\":[{\"name\":\"baselinescan\",\"frequency\":\"PT12H\"},{\"name\":\"patchscan\",\"frequency\":\"PT12H\"}]},{\"id\":\"DETECTIONSERVICE\",\"version\":\"E893DECC057020C6ECCBAB7B57F9BC8CEB81E3CB205F4337C7FF1052D9621E2C\"},{\"id\":\"RELIANCESERVICE\",\"version\":\"4F8F99F5BBFB192513FDA17D0EB507C93B24D48A3D56351313C5BA6E29CF2DD8\"}],\"subscriptionID\":\"7b163b55-8110-4062-918b-a061af34f94f\",\"resourceGroupName\":\"contosoastest2\",\"vmName\":\"contosoastest2\",\"vmVersion\":\"ClassicCompute\"}",
+                                                                                                        "SecureValue":  null,
+                                                                                                        "Type":  "Public",
+                                                                                                        "ExtensionData":  null
+                                                                                                    }
+                                                                                                ],
+                                                           "State":  "Enable",
+                                                           "ForceUpdate":  null,
+                                                           "ExtensionData":  null
+                                                       },
+                                                       {
+                                                           "ReferenceName":  "BGInfo",
+                                                           "Publisher":  "Microsoft.Compute",
+                                                           "Name":  "BGInfo",
+                                                           "Version":  "1.*",
+                                                           "ResourceExtensionParameterValues":  [
+
+                                                                                                ],
+                                                           "State":  "Enable",
+                                                           "ForceUpdate":  null,
+                                                           "ExtensionData":  null
+                                                       }
+                                                   ],
+                   "DataVirtualHardDisksToBeDeleted":  null,
+                   "VMImageInput":  null,
+                   "DebugSettings":  null,
+                   "MigrationState":  null,
+                   "LicenseType":  null
+               },
+        "InstanceStatus":  "ReadyRole",
+        "IpAddress":  "100.73.164.20",
+        "InstanceStateDetails":  "",
+        "PowerState":  "Started",
+        "InstanceErrorCode":  null,
+        "InstanceFaultDomain":  "0",
+        "InstanceName":  "contosoastest2",
+        "InstanceUpgradeDomain":  "0",
+        "InstanceSize":  "Standard_D2",
+        "HostName":  "contosoastest2",
+        "AvailabilitySetName":  "contosoAS2",
+        "DNSName":  "http://contosoastest2.cloudapp.net/",
+        "Status":  "ReadyRole",
+        "GuestAgentStatus":  {
+                                 "ProtocolVersion":  "1.0",
+                                 "TimestampUtc":  "\/Date(1488872532000)\/",
+                                 "GuestAgentVersion":  "2.7.1198.788",
+                                 "Status":  "Ready",
+                                 "Code":  null,
+                                 "Message":  null,
+                                 "FormattedMessage":  {
+                                                          "Language":  "en-US",
+                                                          "Message":  "GuestAgent is running and accepting new configurations.",
+                                                          "ExtensionData":  null
+                                                      },
+                                 "ExtensionData":  null
+                             },
+        "ResourceExtensionStatusList":  [
+                                            {
+                                                "HandlerName":  "Microsoft.Azure.Security.Monitoring",
+                                                "Version":  "3.3.0.0",
+                                                "Status":  "Ready",
+                                                "Code":  null,
+                                                "Message":  null,
+                                                "FormattedMessage":  null,
+                                                "ExtensionSettingStatus":  {
+                                                                               "TimestampUtc":  "\/Date(1484331362000)\/",
+                                                                               "ConfigurationAppliedTimeUtc":  "\/Date(-62135596800000)\/",
+                                                                               "Name":  "AsmExtension",
+                                                                               "Operation":  "Enable",
+                                                                               "Status":  "Success",
+                                                                               "Code":  0,
+                                                                               "Message":  null,
+                                                                               "FormattedMessage":  {
+                                                                                                        "Language":  "en-US",
+                                                                                                        "Message":  "ASM Extension enabled successfully",
+                                                                                                        "ExtensionData":  null
+                                                                                                    },
+                                                                               "SubStatusList":  [
+
+                                                                                                 ],
+                                                                               "ExtensionData":  null
+                                                                           },
+                                                "ExtensionData":  null
+                                            },
+                                            {
+                                                "HandlerName":  "Microsoft.Compute.BGInfo",
+                                                "Version":  "1.2.2",
+                                                "Status":  "Ready",
+                                                "Code":  null,
+                                                "Message":  null,
+                                                "FormattedMessage":  {
+                                                                         "Language":  "en-US",
+                                                                         "Message":  "Plugin enabled (name: Microsoft.Compute.BGInfo, version: 1.2.2).",
+                                                                         "ExtensionData":  null
+                                                                     },
+                                                "ExtensionSettingStatus":  null,
+                                                "ExtensionData":  null
+                                            }
+                                        ],
+        "PublicIPAddress":  "",
+        "PublicIPName":  "",
+        "PublicIPDomainNameLabel":  "",
+        "PublicIPFqdns":  [
+
+                          ],
+        "NetworkInterfaces":  [
+
+                              ],
+        "VirtualNetworkName":  null,
+        "RemoteAccessCertificateThumbprint":  "480B86163100E4CEC93F57E17C9767462097941D",
+        "ServiceName":  "contosoastest2",
+        "OperationDescription":  "Get-AzureVM",
+        "OperationId":  "b4edf60c0be57f02a2d98264c676b6c5",
+        "OperationStatus":  "OK"
+    },
+    {
+        "DeploymentName":  "contosotest04",
+        "Name":  "contosotest04",
+        "Label":  null,
+        "VM":  {
+                   "AvailabilitySetName":  "contosotest04as",
+                   "ConfigurationSets":  [
+                                             {
+                                                 "ConfigurationSetType":  "NetworkConfiguration",
+                                                 "InputEndpoints":  [
+                                                                        {
+                                                                            "LoadBalancedEndpointSetName":  null,
+                                                                            "LocalPort":  5986,
+                                                                            "Name":  "PowerShell",
+                                                                            "Port":  5986,
+                                                                            "LoadBalancerProbe":  null,
+                                                                            "Protocol":  "tcp",
+                                                                            "Vip":  "13.76.188.64",
+                                                                            "EnableDirectServerReturn":  false,
+                                                                            "EndpointAccessControlList":  null,
+                                                                            "LoadBalancerName":  null,
+                                                                            "IdleTimeoutInMinutes":  null,
+                                                                            "LoadBalancerDistribution":  null,
+                                                                            "VirtualIPName":  null,
+                                                                            "ExtensionData":  null
+                                                                        },
+                                                                        {
+                                                                            "LoadBalancedEndpointSetName":  null,
+                                                                            "LocalPort":  3389,
+                                                                            "Name":  "Remote Desktop",
+                                                                            "Port":  63184,
+                                                                            "LoadBalancerProbe":  null,
+                                                                            "Protocol":  "tcp",
+                                                                            "Vip":  "13.76.188.64",
+                                                                            "EnableDirectServerReturn":  false,
+                                                                            "EndpointAccessControlList":  null,
+                                                                            "LoadBalancerName":  null,
+                                                                            "IdleTimeoutInMinutes":  null,
+                                                                            "LoadBalancerDistribution":  null,
+                                                                            "VirtualIPName":  null,
+                                                                            "ExtensionData":  null
+                                                                        }
+                                                                    ],
+                                                 "SubnetNames":  [
+
+                                                                 ],
+                                                 "VirtualIPGroups":  null,
+                                                 "StaticVirtualNetworkIPAddress":  null,
+                                                 "PublicIPs":  [
+
+                                                               ],
+                                                 "NetworkInterfaces":  [
+
+                                                                       ],
+                                                 "NetworkSecurityGroup":  null,
+                                                 "IPForwarding":  null,
+                                                 "ExtensionData":  null
+                                             }
+                                         ],
+                   "DataVirtualHardDisks":  [
+
+                                            ],
+                   "Label":  null,
+                   "OSVirtualHardDisk":  {
+                                             "HostCaching":  "ReadWrite",
+                                             "DiskLabel":  null,
+                                             "DiskName":  "contosotest04-contosotest04-0-201612300905470618",
+                                             "MediaLink":  "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/vhds/contosotest004-contosotest04-2016-12-30.vhd",
+                                             "SourceImageName":  "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20161214-en.us-127GB.vhd",
+                                             "OS":  "Windows",
+                                             "IOType":  "Standard",
+                                             "ResizedSizeInGB":  null,
+                                             "ExtensionData":  null
+                                         },
+                   "RoleName":  "contosotest04",
+                   "RoleSize":  "Standard_D1",
+                   "RoleType":  "PersistentVMRole",
+                   "WinRMCertificate":  null,
+                   "X509Certificates":  null,
+                   "NoExportPrivateKey":  false,
+                   "NoRDPEndpoint":  false,
+                   "NoSSHEndpoint":  false,
+                   "DefaultWinRmCertificateThumbprint":  "254F8B037B4274610C7785468B938BDA8B184336",
+                   "ProvisionGuestAgent":  true,
+                   "ResourceExtensionReferences":  [
+                                                       {
+                                                           "ReferenceName":  "Monitoring",
+                                                           "Publisher":  "Microsoft.Azure.Security",
+                                                           "Name":  "Monitoring",
+                                                           "Version":  "3.3",
+                                                           "ResourceExtensionParameterValues":  [
+                                                                                                    {
+                                                                                                        "Key":  "PublicConfiguration",
+                                                                                                        "Value":  "{\"services\":[{\"id\":\"ASMSERVICE\",\"version\":\"0802422056C50265B03D967A253EC3A674F823859217065D159F529C3D1884C4\",\"scanners\":[{\"name\":\"baselinescan\",\"frequency\":\"PT12H\"},{\"name\":\"patchscan\",\"frequency\":\"PT12H\"}]},{\"id\":\"DETECTIONSERVICE\",\"version\":\"E893DECC057020C6ECCBAB7B57F9BC8CEB81E3CB205F4337C7FF1052D9621E2C\"},{\"id\":\"RELIANCESERVICE\",\"version\":\"4F8F99F5BBFB192513FDA17D0EB507C93B24D48A3D56351313C5BA6E29CF2DD8\"}],\"subscriptionID\":\"7b163b55-8110-4062-918b-a061af34f94f\",\"resourceGroupName\":\"contosotest004\",\"vmName\":\"contosotest04\",\"vmVersion\":\"ClassicCompute\"}",
+                                                                                                        "SecureValue":  null,
+                                                                                                        "Type":  "Public",
+                                                                                                        "ExtensionData":  null
+                                                                                                    }
+                                                                                                ],
+                                                           "State":  "Enable",
+                                                           "ForceUpdate":  null,
+                                                           "ExtensionData":  null
+                                                       },
+                                                       {
+                                                           "ReferenceName":  "BGInfo",
+                                                           "Publisher":  "Microsoft.Compute",
+                                                           "Name":  "BGInfo",
+                                                           "Version":  "1.*",
+                                                           "ResourceExtensionParameterValues":  [
+
+                                                                                                ],
+                                                           "State":  "Enable",
+                                                           "ForceUpdate":  null,
+                                                           "ExtensionData":  null
+                                                       }
+                                                   ],
+                   "DataVirtualHardDisksToBeDeleted":  null,
+                   "VMImageInput":  null,
+                   "DebugSettings":  null,
+                   "MigrationState":  null,
+                   "LicenseType":  null
+               },
+        "InstanceStatus":  "ReadyRole",
+        "IpAddress":  "10.96.184.44",
+        "InstanceStateDetails":  "",
+        "PowerState":  "Started",
+        "InstanceErrorCode":  null,
+        "InstanceFaultDomain":  "0",
+        "InstanceName":  "contosotest04",
+        "InstanceUpgradeDomain":  "0",
+        "InstanceSize":  "Standard_D1",
+        "HostName":  "contosotest04",
+        "AvailabilitySetName":  "contosotest04as",
+        "DNSName":  "http://contosotest004.cloudapp.net/",
+        "Status":  "ReadyRole",
+        "GuestAgentStatus":  {
+                                 "ProtocolVersion":  "1.0",
+                                 "TimestampUtc":  "\/Date(1488872540000)\/",
+                                 "GuestAgentVersion":  "2.7.1198.788",
+                                 "Status":  "Ready",
+                                 "Code":  null,
+                                 "Message":  null,
+                                 "FormattedMessage":  {
+                                                          "Language":  "en-US",
+                                                          "Message":  "GuestAgent is running and accepting new configurations.",
+                                                          "ExtensionData":  null
+                                                      },
+                                 "ExtensionData":  null
+                             },
+        "ResourceExtensionStatusList":  [
+                                            {
+                                                "HandlerName":  "Microsoft.Azure.Security.Monitoring",
+                                                "Version":  "3.3.0.0",
+                                                "Status":  "Ready",
+                                                "Code":  null,
+                                                "Message":  null,
+                                                "FormattedMessage":  null,
+                                                "ExtensionSettingStatus":  {
+                                                                               "TimestampUtc":  "\/Date(1484331335000)\/",
+                                                                               "ConfigurationAppliedTimeUtc":  "\/Date(-62135596800000)\/",
+                                                                               "Name":  "AsmExtension",
+                                                                               "Operation":  "Enable",
+                                                                               "Status":  "Success",
+                                                                               "Code":  0,
+                                                                               "Message":  null,
+                                                                               "FormattedMessage":  {
+                                                                                                        "Language":  "en-US",
+                                                                                                        "Message":  "ASM Extension enabled successfully",
+                                                                                                        "ExtensionData":  null
+                                                                                                    },
+                                                                               "SubStatusList":  [
+
+                                                                                                 ],
+                                                                               "ExtensionData":  null
+                                                                           },
+                                                "ExtensionData":  null
+                                            },
+                                            {
+                                                "HandlerName":  "Microsoft.Compute.BGInfo",
+                                                "Version":  "1.2.2",
+                                                "Status":  "Ready",
+                                                "Code":  null,
+                                                "Message":  null,
+                                                "FormattedMessage":  {
+                                                                         "Language":  "en-US",
+                                                                         "Message":  "Plugin enabled (name: Microsoft.Compute.BGInfo, version: 1.2.2).",
+                                                                         "ExtensionData":  null
+                                                                     },
+                                                "ExtensionSettingStatus":  null,
+                                                "ExtensionData":  null
+                                            }
+                                        ],
+        "PublicIPAddress":  "",
+        "PublicIPName":  "",
+        "PublicIPDomainNameLabel":  "",
+        "PublicIPFqdns":  [
+
+                          ],
+        "NetworkInterfaces":  [
+
+                              ],
+        "VirtualNetworkName":  null,
+        "RemoteAccessCertificateThumbprint":  "013BCB451A0406C8DFA15A7F8C369A9D1951A3B6",
+        "ServiceName":  "contosotest004",
+        "OperationDescription":  "Get-AzureVM",
+        "OperationId":  "70d1e36d10017f94a0cecbb72fcdaf0a",
+        "OperationStatus":  "OK"
+    }
+]

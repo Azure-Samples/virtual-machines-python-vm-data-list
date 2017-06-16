@@ -1,0 +1,822 @@
+[
+  {
+    "accessTier": null,
+    "creationTime": "2016-09-27T07:47:17.697964+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/securitydata/providers/Microsoft.Storage/storageAccounts/7b1692centralindia",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "centralindia",
+    "name": "7b1692centralindia",
+    "primaryEndpoints": {
+      "blob": "https://7b1692centralindia.blob.core.windows.net/",
+      "file": "https://7b1692centralindia.file.core.windows.net/",
+      "queue": "https://7b1692centralindia.queue.core.windows.net/",
+      "table": "https://7b1692centralindia.table.core.windows.net/"
+    },
+    "primaryLocation": "centralindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "securitydata",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-09-27T07:47:13.135497+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/securitydata/providers/Microsoft.Storage/storageAccounts/7b1692northcentralus",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "northcentralus",
+    "name": "7b1692northcentralus",
+    "primaryEndpoints": {
+      "blob": "https://7b1692northcentralus.blob.core.windows.net/",
+      "file": "https://7b1692northcentralus.file.core.windows.net/",
+      "queue": "https://7b1692northcentralus.queue.core.windows.net/",
+      "table": "https://7b1692northcentralus.table.core.windows.net/"
+    },
+    "primaryLocation": "northcentralus",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "securitydata",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-11-21T15:06:31.030648+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/securitydata/providers/Microsoft.Storage/storageAccounts/7b1692southeastasia",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "southeastasia",
+    "name": "7b1692southeastasia",
+    "primaryEndpoints": {
+      "blob": "https://7b1692southeastasia.blob.core.windows.net/",
+      "file": "https://7b1692southeastasia.file.core.windows.net/",
+      "queue": "https://7b1692southeastasia.queue.core.windows.net/",
+      "table": "https://7b1692southeastasia.table.core.windows.net/"
+    },
+    "primaryLocation": "southeastasia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "securitydata",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-09-27T07:47:14.257639+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/securitydata/providers/Microsoft.Storage/storageAccounts/7b1692southindia",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "southindia",
+    "name": "7b1692southindia",
+    "primaryEndpoints": {
+      "blob": "https://7b1692southindia.blob.core.windows.net/",
+      "file": "https://7b1692southindia.file.core.windows.net/",
+      "queue": "https://7b1692southindia.queue.core.windows.net/",
+      "table": "https://7b1692southindia.table.core.windows.net/"
+    },
+    "primaryLocation": "southindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "securitydata",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-07-18T13:36:21.656647+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosospha/providers/Microsoft.Storage/storageAccounts/contosospha1",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "southindia",
+    "name": "contosospha1",
+    "primaryEndpoints": {
+      "blob": "https://contosospha1.blob.core.windows.net/",
+      "file": null,
+      "queue": null,
+      "table": null
+    },
+    "primaryLocation": "southindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosospha",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Premium_LRS",
+      "tier": "Premium"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-07-18T13:36:21.639641+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosospha/providers/Microsoft.Storage/storageAccounts/contosospha2",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "southindia",
+    "name": "contosospha2",
+    "primaryEndpoints": {
+      "blob": "https://contosospha2.blob.core.windows.net/",
+      "file": null,
+      "queue": null,
+      "table": null
+    },
+    "primaryLocation": "southindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosospha",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Premium_LRS",
+      "tier": "Premium"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-07-18T13:36:21.659706+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosospha/providers/Microsoft.Storage/storageAccounts/contosospha3",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "southindia",
+    "name": "contosospha3",
+    "primaryEndpoints": {
+      "blob": "https://contosospha3.blob.core.windows.net/",
+      "file": null,
+      "queue": null,
+      "table": null
+    },
+    "primaryLocation": "southindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosospha",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Premium_LRS",
+      "tier": "Premium"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-07-18T13:36:21.638641+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosospha/providers/Microsoft.Storage/storageAccounts/contosospha4",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "southindia",
+    "name": "contosospha4",
+    "primaryEndpoints": {
+      "blob": "https://contosospha4.blob.core.windows.net/",
+      "file": "https://contosospha4.file.core.windows.net/",
+      "queue": "https://contosospha4.queue.core.windows.net/",
+      "table": "https://contosospha4.table.core.windows.net/"
+    },
+    "primaryLocation": "southindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosospha",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-09-29T08:56:18.002635+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosotestsa/providers/Microsoft.Storage/storageAccounts/contosotestsa",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "centralindia",
+    "name": "contosotestsa",
+    "primaryEndpoints": {
+      "blob": "https://contosotestsa.blob.core.windows.net/",
+      "file": "https://contosotestsa.file.core.windows.net/",
+      "queue": "https://contosotestsa.queue.core.windows.net/",
+      "table": "https://contosotestsa.table.core.windows.net/"
+    },
+    "primaryLocation": "centralindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosotestsa",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-07-05T07:14:22.590344+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoubuntu/providers/Microsoft.Storage/storageAccounts/contosoubuntu2280",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "southindia",
+    "name": "contosoubuntu2280",
+    "primaryEndpoints": {
+      "blob": "https://contosoubuntu2280.blob.core.windows.net/",
+      "file": null,
+      "queue": null,
+      "table": null
+    },
+    "primaryLocation": "southindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosoubuntu",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Premium_LRS",
+      "tier": "Premium"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-07-05T07:14:22.593328+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosoubuntu/providers/Microsoft.Storage/storageAccounts/contosoubuntu7994",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "southindia",
+    "name": "contosoubuntu7994",
+    "primaryEndpoints": {
+      "blob": "https://contosoubuntu7994.blob.core.windows.net/",
+      "file": "https://contosoubuntu7994.file.core.windows.net/",
+      "queue": "https://contosoubuntu7994.queue.core.windows.net/",
+      "table": "https://contosoubuntu7994.table.core.windows.net/"
+    },
+    "primaryLocation": "southindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosoubuntu",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-07-15T15:21:33.420116+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosowinsrv2016rg/providers/Microsoft.Storage/storageAccounts/contosowinsrv2016rg1514",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "centralindia",
+    "name": "contosowinsrv2016rg1514",
+    "primaryEndpoints": {
+      "blob": "https://contosowinsrv2016rg1514.blob.core.windows.net/",
+      "file": "https://contosowinsrv2016rg1514.file.core.windows.net/",
+      "queue": "https://contosowinsrv2016rg1514.queue.core.windows.net/",
+      "table": "https://contosowinsrv2016rg1514.table.core.windows.net/"
+    },
+    "primaryLocation": "centralindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosowinsrv2016rg",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-12-07T06:56:44.158592+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosowinsrv2016rg/providers/Microsoft.Storage/storageAccounts/contosowinsrv2016rgdiag413",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "centralindia",
+    "name": "contosowinsrv2016rgdiag413",
+    "primaryEndpoints": {
+      "blob": "https://contosowinsrv2016rgdiag413.blob.core.windows.net/",
+      "file": "https://contosowinsrv2016rgdiag413.file.core.windows.net/",
+      "queue": "https://contosowinsrv2016rgdiag413.queue.core.windows.net/",
+      "table": "https://contosowinsrv2016rgdiag413.table.core.windows.net/"
+    },
+    "primaryLocation": "centralindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosowinsrv2016rg",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-12-07T06:56:44.033595+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosowinsrv2016rg/providers/Microsoft.Storage/storageAccounts/contosowinsrv2016rgdisks511",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "centralindia",
+    "name": "contosowinsrv2016rgdisks511",
+    "primaryEndpoints": {
+      "blob": "https://contosowinsrv2016rgdisks511.blob.core.windows.net/",
+      "file": null,
+      "queue": null,
+      "table": null
+    },
+    "primaryLocation": "centralindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosowinsrv2016rg",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Premium_LRS",
+      "tier": "Premium"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-06-28T17:00:45.211895+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosowinvm01/providers/Microsoft.Storage/storageAccounts/contosowinvm011353",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "northcentralus",
+    "name": "contosowinvm011353",
+    "primaryEndpoints": {
+      "blob": "https://contosowinvm011353.blob.core.windows.net/",
+      "file": "https://contosowinvm011353.file.core.windows.net/",
+      "queue": "https://contosowinvm011353.queue.core.windows.net/",
+      "table": "https://contosowinvm011353.table.core.windows.net/"
+    },
+    "primaryLocation": "northcentralus",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosowinvm01",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-07-05T07:02:17.633774+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosowinvm03/providers/Microsoft.Storage/storageAccounts/contosowinvm032376",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "southindia",
+    "name": "contosowinvm032376",
+    "primaryEndpoints": {
+      "blob": "https://contosowinvm032376.blob.core.windows.net/",
+      "file": null,
+      "queue": null,
+      "table": null
+    },
+    "primaryLocation": "southindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosowinvm03",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Premium_LRS",
+      "tier": "Premium"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-07-05T07:02:17.737793+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosowinvm03/providers/Microsoft.Storage/storageAccounts/contosowinvm039189",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "southindia",
+    "name": "contosowinvm039189",
+    "primaryEndpoints": {
+      "blob": "https://contosowinvm039189.blob.core.windows.net/",
+      "file": "https://contosowinvm039189.file.core.windows.net/",
+      "queue": "https://contosowinvm039189.queue.core.windows.net/",
+      "table": "https://contosowinvm039189.table.core.windows.net/"
+    },
+    "primaryLocation": "southindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosowinvm03",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-08-17T15:09:58.613880+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosowinvm2/providers/Microsoft.Storage/storageAccounts/contosowinvm2diag202",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "northcentralus",
+    "name": "contosowinvm2diag202",
+    "primaryEndpoints": {
+      "blob": "https://contosowinvm2diag202.blob.core.windows.net/",
+      "file": "https://contosowinvm2diag202.file.core.windows.net/",
+      "queue": "https://contosowinvm2diag202.queue.core.windows.net/",
+      "table": "https://contosowinvm2diag202.table.core.windows.net/"
+    },
+    "primaryLocation": "northcentralus",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosowinvm2",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-08-17T15:09:58.613880+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosowinvm2/providers/Microsoft.Storage/storageAccounts/contosowinvm2disks416",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "northcentralus",
+    "name": "contosowinvm2disks416",
+    "primaryEndpoints": {
+      "blob": "https://contosowinvm2disks416.blob.core.windows.net/",
+      "file": null,
+      "queue": null,
+      "table": null
+    },
+    "primaryLocation": "northcentralus",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosowinvm2",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Premium_LRS",
+      "tier": "Premium"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-12-20T14:02:09.057292+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosovmsstest/providers/Microsoft.Storage/storageAccounts/cuu2oi2h2wf2w",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "centralindia",
+    "name": "cuu2oi2h2wf2w",
+    "primaryEndpoints": {
+      "blob": "https://cuu2oi2h2wf2w.blob.core.windows.net/",
+      "file": "https://cuu2oi2h2wf2w.file.core.windows.net/",
+      "queue": "https://cuu2oi2h2wf2w.queue.core.windows.net/",
+      "table": "https://cuu2oi2h2wf2w.table.core.windows.net/"
+    },
+    "primaryLocation": "centralindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosovmsstest",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {
+      "displayName": "StorageAccounts"
+    },
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-12-20T14:02:09.058292+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosovmsstest/providers/Microsoft.Storage/storageAccounts/diuuv4qs47n2w",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "centralindia",
+    "name": "diuuv4qs47n2w",
+    "primaryEndpoints": {
+      "blob": "https://diuuv4qs47n2w.blob.core.windows.net/",
+      "file": "https://diuuv4qs47n2w.file.core.windows.net/",
+      "queue": "https://diuuv4qs47n2w.queue.core.windows.net/",
+      "table": "https://diuuv4qs47n2w.table.core.windows.net/"
+    },
+    "primaryLocation": "centralindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosovmsstest",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {
+      "displayName": "StorageAccounts"
+    },
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-12-13T17:01:31.003881+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contososamplefn/providers/Microsoft.Storage/storageAccounts/function85d959c0819c",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "southeastasia",
+    "name": "function85d959c0819c",
+    "primaryEndpoints": {
+      "blob": "https://function85d959c0819c.blob.core.windows.net/",
+      "file": "https://function85d959c0819c.file.core.windows.net/",
+      "queue": "https://function85d959c0819c.queue.core.windows.net/",
+      "table": "https://function85d959c0819c.table.core.windows.net/"
+    },
+    "primaryLocation": "southeastasia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contososamplefn",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-08-16T09:34:52.753345+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/iptest01/providers/Microsoft.Storage/storageAccounts/iptest01diag159",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "southindia",
+    "name": "iptest01diag159",
+    "primaryEndpoints": {
+      "blob": "https://iptest01diag159.blob.core.windows.net/",
+      "file": "https://iptest01diag159.file.core.windows.net/",
+      "queue": "https://iptest01diag159.queue.core.windows.net/",
+      "table": "https://iptest01diag159.table.core.windows.net/"
+    },
+    "primaryLocation": "southindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "iptest01",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-08-16T09:34:52.753345+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/iptest01/providers/Microsoft.Storage/storageAccounts/iptest01disks177",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "southindia",
+    "name": "iptest01disks177",
+    "primaryEndpoints": {
+      "blob": "https://iptest01disks177.blob.core.windows.net/",
+      "file": null,
+      "queue": null,
+      "table": null
+    },
+    "primaryLocation": "southindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "iptest01",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Premium_LRS",
+      "tier": "Premium"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {},
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-12-20T14:02:09.065293+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosovmsstest/providers/Microsoft.Storage/storageAccounts/pfibkk2dcwacs",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "centralindia",
+    "name": "pfibkk2dcwacs",
+    "primaryEndpoints": {
+      "blob": "https://pfibkk2dcwacs.blob.core.windows.net/",
+      "file": "https://pfibkk2dcwacs.file.core.windows.net/",
+      "queue": "https://pfibkk2dcwacs.queue.core.windows.net/",
+      "table": "https://pfibkk2dcwacs.table.core.windows.net/"
+    },
+    "primaryLocation": "centralindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosovmsstest",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {
+      "displayName": "StorageAccounts"
+    },
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-12-20T14:02:09.072293+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosovmsstest/providers/Microsoft.Storage/storageAccounts/v4h2bnias64gm",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "centralindia",
+    "name": "v4h2bnias64gm",
+    "primaryEndpoints": {
+      "blob": "https://v4h2bnias64gm.blob.core.windows.net/",
+      "file": "https://v4h2bnias64gm.file.core.windows.net/",
+      "queue": "https://v4h2bnias64gm.queue.core.windows.net/",
+      "table": "https://v4h2bnias64gm.table.core.windows.net/"
+    },
+    "primaryLocation": "centralindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosovmsstest",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {
+      "displayName": "StorageAccounts"
+    },
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "accessTier": null,
+    "creationTime": "2016-12-20T14:02:09.057292+00:00",
+    "customDomain": null,
+    "encryption": null,
+    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosovmsstest/providers/Microsoft.Storage/storageAccounts/zg5mbbktmyfyu",
+    "kind": "Storage",
+    "lastGeoFailoverTime": null,
+    "location": "centralindia",
+    "name": "zg5mbbktmyfyu",
+    "primaryEndpoints": {
+      "blob": "https://zg5mbbktmyfyu.blob.core.windows.net/",
+      "file": "https://zg5mbbktmyfyu.file.core.windows.net/",
+      "queue": "https://zg5mbbktmyfyu.queue.core.windows.net/",
+      "table": "https://zg5mbbktmyfyu.table.core.windows.net/"
+    },
+    "primaryLocation": "centralindia",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "contosovmsstest",
+    "secondaryEndpoints": null,
+    "secondaryLocation": null,
+    "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+    },
+    "statusOfPrimary": "Available",
+    "statusOfSecondary": null,
+    "tags": {
+      "displayName": "StorageAccounts"
+    },
+    "type": "Microsoft.Storage/storageAccounts"
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "DNSName": "contosoastest1.cloudapp.net",
+    "Location": "Southeast Asia",
+    "VMName": "ContosoASTest1",
+    "IPAddress": "100.72.0.47",
+    "InstanceStatus": "ReadyRole",
+    "InstanceSize": "Standard_D2",
+    "Image": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20161109-en.us-127GB.vhd",
+    "OSDisk": {
+      "hostCaching": "ReadWrite",
+      "name": "ContosoASTest1-ContosoASTest1-0-201611211044550279",
+      "mediaLink": "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/vhds/ContosoASTest1-ContosoASTest1-2016-11-21.vhd",
+      "sourceImageName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20161109-en.us-127GB.vhd",
+      "operatingSystem": "Windows",
+      "iOType": "Standard"
+    },
+    "DataDisks": [],
+    "ReservedIPName": "",
+    "VirtualIPAddresses": [
+      {
+        "address": "13.76.215.253",
+        "isDnsProgrammed": true,
+        "name": "ContosoASTest1ContractContract"
+      }
+    ],
+    "PublicIPs": [],
+    "Network": {
+      "Endpoints": [
+        {
+          "localPort": 5986,
+          "name": "PowerShell",
+          "port": 5986,
+          "protocol": "tcp",
+          "virtualIPAddress": "13.76.215.253",
+          "enableDirectServerReturn": false
+        },
+        {
+          "localPort": 3389,
+          "name": "Remote Desktop",
+          "port": 50684,
+          "protocol": "tcp",
+          "virtualIPAddress": "13.76.215.253",
+          "enableDirectServerReturn": false
+        }
+      ],
+      "PublicIPs": [],
+      "NetworkInterfaces": []
+    },
+    "DebugSettings": {},
+    "AvailabilitySetName": "ContosoASTest",
+    "ServiceName": "contosoastest1"
+  },
+  {
+    "DNSName": "contosoastest2.cloudapp.net",
+    "Location": "Southeast Asia",
+    "VMName": "contosoastest03",
+    "IPAddress": "100.73.216.19",
+    "InstanceStatus": "ReadyRole",
+    "InstanceSize": "Standard_D1",
+    "Image": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20161109-en.us-127GB.vhd",
+    "OSDisk": {
+      "hostCaching": "ReadWrite",
+      "name": "contosoastest2-contosoastest03-0-201611211210320948",
+      "mediaLink": "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/vhds/contosoastest2-contosoastest03-2016-11-21.vhd",
+      "sourceImageName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20161109-en.us-127GB.vhd",
+      "operatingSystem": "Windows",
+      "iOType": "Standard"
+    },
+    "DataDisks": [],
+    "ReservedIPName": "",
+    "VirtualIPAddresses": [
+      {
+        "address": "207.46.230.216",
+        "isDnsProgrammed": true,
+        "name": "contosoastest2ContractContract"
+      }
+    ],
+    "PublicIPs": [],
+    "Network": {
+      "Endpoints": [
+        {
+          "localPort": 5986,
+          "name": "PowerShell",
+          "port": 63490,
+          "protocol": "tcp",
+          "virtualIPAddress": "207.46.230.216",
+          "enableDirectServerReturn": false
+        },
+        {
+          "localPort": 3389,
+          "name": "Remote Desktop",
+          "port": 64313,
+          "protocol": "tcp",
+          "virtualIPAddress": "207.46.230.216",
+          "enableDirectServerReturn": false
+        }
+      ],
+      "PublicIPs": [],
+      "NetworkInterfaces": []
+    },
+    "DebugSettings": {},
+    "AvailabilitySetName": "ContosoAS2",
+    "ServiceName": "contosoastest2"
+  },
+  {
+    "DNSName": "contosoastest2.cloudapp.net",
+    "Location": "Southeast Asia",
+    "VMName": "contosoastest2",
+    "IPAddress": "100.73.164.20",
+    "InstanceStatus": "ReadyRole",
+    "InstanceSize": "Standard_D2",
+    "Image": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20161109-en.us-127GB.vhd",
+    "OSDisk": {
+      "hostCaching": "ReadWrite",
+      "name": "contosoastest2-contosoastest2-0-201611211131520281",
+      "mediaLink": "https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/vhds/contosoastest2-contosoastest2-2016-11-21.vhd",
+      "sourceImageName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20161109-en.us-127GB.vhd",
+      "operatingSystem": "Windows",
+      "iOType": "Standard"
+    },
+    "DataDisks": [],
+    "ReservedIPName": "",
+    "VirtualIPAddresses": [
+      {
+        "address": "207.46.230.216",
+        "isDnsProgrammed": true,
+        "name": "contosoastest2ContractContract"
+      }
+    ],
+    "PublicIPs": [],
+    "Network": {
+      "Endpoints": [
+        {
+          "localPort": 5986,
+          "name": "PowerShell",
+          "port": 5986,
+          "protocol": "tcp",
+          "virtualIPAddress": "207.46.230.216",
+          "enableDirectServerReturn": false
+        },
+        {
+          "localPort": 3389,
+          "name": "Remote Desktop",
+          "port": 50659,
+          "protocol": "tcp",
+          "virtualIPAddress": "207.46.230.216",
+          "enableDirectServerReturn": false
+        }
+      ],
+      "PublicIPs": [],
+      "NetworkInterfaces": []
+    },
+    "DebugSettings": {},
+    "AvailabilitySetName": "ContosoAS2",
+    "ServiceName": "contosoastest2"
+  }
+]

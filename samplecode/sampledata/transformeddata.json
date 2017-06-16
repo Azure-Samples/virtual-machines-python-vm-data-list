@@ -1,0 +1,296 @@
+{
+    "version": "1.0",
+    "creationDate": "2017-01-02T18:25:43.511Z",
+    "subscriptions": [
+        {
+            "subscriptionId": "<subId>",
+            "subscriptionName": "<SubscriptionName>",
+            "ARM": {
+                "virtualMachines": [
+                    {
+                        "availabilitySet": null,
+                        "diagnosticsProfile": {
+                            "bootDiagnostics": {
+                                "enabled": true,
+                                "storageUri": "https://contosowinvm011353.blob.core.windows.net/"
+                            }
+                        },
+                        "hardwareProfile": {
+                            "vmSize": "Standard_D14_v2"
+                        },
+                        "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/CONTOSOWINVM01/providers/Microsoft.Compute/virtualMachines/contosowinvm01",
+                        "instanceView": null,
+                        "licenseType": null,
+                        "location": "northcentralus",
+                        "name": "contosowinvm01",
+                        "networkProfile": {
+                            "networkInterfaces": [
+                                {
+                                    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/contosowinvm01/providers/Microsoft.Network/networkInterfaces/contosowinvm015",
+                                    "primary": null,
+                                    "resourceGroup": "contosowinvm01"
+                                }
+                            ]
+                        },
+                        "osProfile": {
+                            "adminPassword": null,
+                            "adminUsername": "contosouser",
+                            "computerName": "contosowinvm01",
+                            "customData": null,
+                            "linuxConfiguration": null,
+                            "secrets": [],
+                            "windowsConfiguration": {
+                                "additionalUnattendContent": null,
+                                "enableAutomaticUpdates": true,
+                                "provisionVmAgent": true,
+                                "timeZone": null,
+                                "winRm": null
+                            }
+                        },
+                        "plan": null,
+                        "provisioningState": "Succeeded",
+                        "resourceGroup": "CONTOSOWINVM01",
+                        "resources": [
+                            {
+                                "autoUpgradeMinorVersion": null,
+                                "forceUpdateTag": null,
+                                "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/CONTOSOWINVM01/providers/Microsoft.Compute/virtualMachines/contosowinvm01/extensions/Microsoft.Insights.VMDiagnosticsSettings",
+                                "instanceView": null,
+                                "location": null,
+                                "name": null,
+                                "protectedSettings": null,
+                                "provisioningState": null,
+                                "publisher": null,
+                                "resourceGroup": "CONTOSOWINVM01",
+                                "settings": null,
+                                "tags": null,
+                                "type": null,
+                                "typeHandlerVersion": null,
+                                "virtualMachineExtensionType": null
+                            },
+                            {
+                                "autoUpgradeMinorVersion": null,
+                                "forceUpdateTag": null,
+                                "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/CONTOSOWINVM01/providers/Microsoft.Compute/virtualMachines/contosowinvm01/extensions/Monitoring",
+                                "instanceView": null,
+                                "location": null,
+                                "name": null,
+                                "protectedSettings": null,
+                                "provisioningState": null,
+                                "publisher": null,
+                                "resourceGroup": "CONTOSOWINVM01",
+                                "settings": null,
+                                "tags": null,
+                                "type": null,
+                                "typeHandlerVersion": null,
+                                "virtualMachineExtensionType": null
+                            }
+                        ],
+                        "storageProfile": {
+                            "dataDisks": [],
+                            "imageReference": {
+                                "offer": "WindowsServer",
+                                "publisher": "MicrosoftWindowsServer",
+                                "sku": "2012-R2-Datacenter",
+                                "version": "latest"
+                            },
+                            "osDisk": {
+                                "caching": "ReadWrite",
+                                "createOption": "fromImage",
+                                "diskSizeGb": null,
+                                "encryptionSettings": null,
+                                "image": null,
+                                "name": "contosowinvm01",
+                                "osType": "Windows",
+                                "vhd": {
+                                    "uri": "https://contosowinvm011353.blob.core.windows.net/vhds/contosowinvm012016528223025.vhd"
+                                }
+                            }
+                        },
+                        "tags": {},
+                        "type": "Microsoft.Compute/virtualMachines",
+                        "vmId": "3f3e1f2c-b4b8-4d50-8487-77f35d4ffd3a"
+                    },
+                    {
+                        "availabilitySet": {
+                            "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/CONTOSOWINVM2/providers/Microsoft.Compute/availabilitySets/CONTOSOWINVM2",
+                            "resourceGroup": "CONTOSOWINVM2"
+                        },
+                        "diagnosticsProfile": {
+                            "bootDiagnostics": {
+                                "enabled": true,
+                                "storageUri": "https://contosowinvm2diag202.blob.core.windows.net/"
+                            }
+                        },
+                        "hardwareProfile": {
+                            "vmSize": "Standard_DS2_v2"
+                        },
+                        "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/CONTOSOWINVM2/providers/Microsoft.Compute/virtualMachines/contosowinvm2",
+                        "instanceView": null,
+                        "licenseType": null,
+                        "location": "northcentralus",
+                        "name": "contosowinvm2",
+                        "networkProfile": {
+                            "networkInterfaces": [
+                                {
+                                    "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/ContosoWinVM2/providers/Microsoft.Network/networkInterfaces/contosowinvm2288",
+                                    "primary": null,
+                                    "resourceGroup": "ContosoWinVM2"
+                                }
+                            ]
+                        },
+                        "osProfile": {
+                            "adminPassword": null,
+                            "adminUsername": "contosouser",
+                            "computerName": "contosowinvm2",
+                            "customData": null,
+                            "linuxConfiguration": null,
+                            "secrets": [],
+                            "windowsConfiguration": {
+                                "additionalUnattendContent": null,
+                                "enableAutomaticUpdates": true,
+                                "provisionVmAgent": true,
+                                "timeZone": null,
+                                "winRm": null
+                            }
+                        },
+                        "plan": null,
+                        "provisioningState": "Succeeded",
+                        "resourceGroup": "CONTOSOWINVM2",
+                        "resources": [
+                            {
+                                "autoUpgradeMinorVersion": null,
+                                "forceUpdateTag": null,
+                                "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/CONTOSOWINVM2/providers/Microsoft.Compute/virtualMachines/contosowinvm2/extensions/Microsoft.Insights.VMDiagnosticsSettings",
+                                "instanceView": null,
+                                "location": null,
+                                "name": null,
+                                "protectedSettings": null,
+                                "provisioningState": null,
+                                "publisher": null,
+                                "resourceGroup": "CONTOSOWINVM2",
+                                "settings": null,
+                                "tags": null,
+                                "type": null,
+                                "typeHandlerVersion": null,
+                                "virtualMachineExtensionType": null
+                            },
+                            {
+                                "autoUpgradeMinorVersion": null,
+                                "forceUpdateTag": null,
+                                "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/CONTOSOWINVM2/providers/Microsoft.Compute/virtualMachines/contosowinvm2/extensions/Monitoring",
+                                "instanceView": null,
+                                "location": null,
+                                "name": null,
+                                "protectedSettings": null,
+                                "provisioningState": null,
+                                "publisher": null,
+                                "resourceGroup": "CONTOSOWINVM2",
+                                "settings": null,
+                                "tags": null,
+                                "type": null,
+                                "typeHandlerVersion": null,
+                                "virtualMachineExtensionType": null
+                            }
+                        ],
+                        "storageProfile": {
+                            "dataDisks": [],
+                            "imageReference": {
+                                "offer": "WindowsServer",
+                                "publisher": "MicrosoftWindowsServer",
+                                "sku": "2012-R2-Datacenter",
+                                "version": "latest"
+                            },
+                            "osDisk": {
+                                "caching": "ReadWrite",
+                                "createOption": "fromImage",
+                                "diskSizeGb": null,
+                                "encryptionSettings": null,
+                                "image": null,
+                                "name": "contosowinvm2",
+                                "osType": "Windows",
+                                "vhd": {
+                                    "uri": "https://contosowinvm2disks416.blob.core.windows.net/vhds/contosowinvm22016717203949.vhd"
+                                }
+                            }
+                        },
+                        "tags": null,
+                        "type": "Microsoft.Compute/virtualMachines",
+                        "vmId": "60ea416d-a5ab-4b80-a85e-500dbc1886e5"
+                    }
+                ],
+                "storageAccounts": [
+                    {
+                        "accessTier": null,
+                        "creationTime": "2016-09-27T07:47:17.697964+00:00",
+                        "customDomain": null,
+                        "encryption": null,
+                        "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/securitydata/providers/Microsoft.Storage/storageAccounts/7b1692centralindia",
+                        "kind": "Storage",
+                        "lastGeoFailoverTime": null,
+                        "location": "centralindia",
+                        "name": "7b1692centralindia",
+                        "primaryEndpoints": {
+                            "blob": "https://7b1692centralindia.blob.core.windows.net/",
+                            "file": "https://7b1692centralindia.file.core.windows.net/",
+                            "queue": "https://7b1692centralindia.queue.core.windows.net/",
+                            "table": "https://7b1692centralindia.table.core.windows.net/"
+                        },
+                        "primaryLocation": "centralindia",
+                        "provisioningState": "Succeeded",
+                        "resourceGroup": "securitydata",
+                        "secondaryEndpoints": null,
+                        "secondaryLocation": null,
+                        "sku": {
+                            "name": "Standard_LRS",
+                            "tier": "Standard"
+                        },
+                        "statusOfPrimary": "Available",
+                        "statusOfSecondary": null,
+                        "tags": {},
+                        "type": "Microsoft.Storage/storageAccounts"
+                    },
+                    {
+                        "accessTier": null,
+                        "creationTime": "2016-09-27T07:47:13.135497+00:00",
+                        "customDomain": null,
+                        "encryption": null,
+                        "id": "/subscriptions/7b163b55-8110-4062-918b-a061af34f94f/resourceGroups/securitydata/providers/Microsoft.Storage/storageAccounts/7b1692northcentralus",
+                        "kind": "Storage",
+                        "lastGeoFailoverTime": null,
+                        "location": "northcentralus",
+                        "name": "7b1692northcentralus",
+                        "primaryEndpoints": {
+                            "blob": "https://7b1692northcentralus.blob.core.windows.net/",
+                            "file": "https://7b1692northcentralus.file.core.windows.net/",
+                            "queue": "https://7b1692northcentralus.queue.core.windows.net/",
+                            "table": "https://7b1692northcentralus.table.core.windows.net/"
+                        },
+                        "primaryLocation": "northcentralus",
+                        "provisioningState": "Succeeded",
+                        "resourceGroup": "securitydata",
+                        "secondaryEndpoints": null,
+                        "secondaryLocation": null,
+                        "sku": {
+                            "name": "Standard_LRS",
+                            "tier": "Standard"
+                        },
+                        "statusOfPrimary": "Available",
+                        "statusOfSecondary": null,
+                        "tags": {},
+                        "type": "Microsoft.Storage/storageAccounts"
+                    }
+                ]
+            },
+            "ASM": {
+                "virtualMachines": [
+                    {                       
+                    }
+                ],
+                "storageAccounts": [
+                    {}
+                ]
+            }
+        }
+    ]
+}

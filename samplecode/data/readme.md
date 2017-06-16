@@ -1,0 +1,1 @@
+The data files will be stored within this folder under each <subscriptionId> folder

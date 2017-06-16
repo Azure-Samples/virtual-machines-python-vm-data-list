@@ -1,0 +1,79 @@
+Disk URI,Storage Account,Associated VM,Associated Availability Set, Disk Type,Deployment Model
+https://contosowinvm011353.blob.core.windows.net/vhds/contosowinvm012016528223025.vhd,contosowinvm011353,contosowinvm01,None,OS Disk Standard_D14_v2,ARM
+https://contosowinvm2disks416.blob.core.windows.net/vhds/contosowinvm22016717203949.vhd,contosowinvm2disks416,contosowinvm2,contosoWINVM2,OS Disk Standard_DS2_v2,ARM
+http://contosospha1.blob.core.windows.net/vhds/ad-bdc-osdisk.vhd,contosospha1,ad-bdc,ADAVAILABILITYSET,OS Disk Standard_DS2_v2,ARM
+http://contosospha1.blob.core.windows.net/vhds/ad-bdcdata-1.vhd,contosospha1,ad-bdc,ADAVAILABILITYSET,Data Disk 128 GB,ARM
+http://contosospha1.blob.core.windows.net/vhds/ad-pdc-osdisk.vhd,contosospha1,ad-pdc,ADAVAILABILITYSET,OS Disk Standard_DS2_v2,ARM
+http://contosospha1.blob.core.windows.net/vhds/ad-pdcdata-1.vhd,contosospha1,ad-pdc,ADAVAILABILITYSET,Data Disk 128 GB,ARM
+http://contosospha3.blob.core.windows.net/vhds/sps-app-0-osdisk.vhd,contosospha3,sps-app-0,SPAPPAVAILABILITYSET,OS Disk Standard_DS3_v2,ARM
+http://contosospha3.blob.core.windows.net/vhds/sps-app-0-Data-1.vhd,contosospha3,sps-app-0,SPAPPAVAILABILITYSET,Data Disk 128 GB,ARM
+http://contosospha3.blob.core.windows.net/vhds/sps-app-1-osdisk.vhd,contosospha3,sps-app-1,SPAPPAVAILABILITYSET,OS Disk Standard_DS3_v2,ARM
+http://contosospha3.blob.core.windows.net/vhds/sps-app-1-Data-1.vhd,contosospha3,sps-app-1,SPAPPAVAILABILITYSET,Data Disk 128 GB,ARM
+http://contosospha3.blob.core.windows.net/vhds/sps-web-0-osdisk.vhd,contosospha3,sps-web-0,SPWEBAVAILABILITYSET,OS Disk Standard_DS3_v2,ARM
+http://contosospha3.blob.core.windows.net/vhds/sps-web-0-Data-1.vhd,contosospha3,sps-web-0,SPWEBAVAILABILITYSET,Data Disk 128 GB,ARM
+http://contosospha3.blob.core.windows.net/vhds/sps-web-1-osdisk.vhd,contosospha3,sps-web-1,SPWEBAVAILABILITYSET,OS Disk Standard_DS3_v2,ARM
+http://contosospha3.blob.core.windows.net/vhds/sps-web-1-Data-1.vhd,contosospha3,sps-web-1,SPWEBAVAILABILITYSET,Data Disk 128 GB,ARM
+http://contosospha2.blob.core.windows.net/vhds/sql-0-osdisk.vhd,contosospha2,sql-0,SQLAVAILABILITYSET,OS Disk Standard_DS3_v2,ARM
+http://contosospha2.blob.core.windows.net/vhds/sql-0-Data-1.vhd,contosospha2,sql-0,SQLAVAILABILITYSET,Data Disk 1000 GB,ARM
+http://contosospha2.blob.core.windows.net/vhds/sql-0-log.vhd,contosospha2,sql-0,SQLAVAILABILITYSET,Data Disk 1000 GB,ARM
+http://contosospha2.blob.core.windows.net/vhds/sql-1-osdisk.vhd,contosospha2,sql-1,SQLAVAILABILITYSET,OS Disk Standard_DS3_v2,ARM
+http://contosospha2.blob.core.windows.net/vhds/sql-1-Data-1.vhd,contosospha2,sql-1,SQLAVAILABILITYSET,Data Disk 1000 GB,ARM
+http://contosospha2.blob.core.windows.net/vhds/sql-1-log.vhd,contosospha2,sql-1,SQLAVAILABILITYSET,Data Disk 1000 GB,ARM
+http://contosospha2.blob.core.windows.net/vhds/sql-w-osdisk.vhd,contosospha2,sql-w,SQLAVAILABILITYSET,OS Disk Standard_DS1_v2,ARM
+http://contosospha2.blob.core.windows.net/vhds/sql-w-data-1.vhd,contosospha2,sql-w,SQLAVAILABILITYSET,Data Disk 128 GB,ARM
+https://contosoubuntu2280.blob.core.windows.net/vhds/contosoubuntu1620166512446.vhd,contosoubuntu2280,contosoubuntu16,None,OS Disk Standard_DS2_v2,ARM
+https://contosowinvm032376.blob.core.windows.net/vhds/contosowinvm03201665123159.vhd,contosowinvm032376,contosowinvm03,None,OS Disk Standard_DS15_v2,ARM
+https://contosospha1.blob.core.windows.net/vhds/IPTest032016716184741.vhd,contosospha1,IPTest03,IPTESTAS,OS Disk Standard_DS2_v2,ARM
+https://iptest01disks177.blob.core.windows.net/vhds/IPTEstVM01201671615439.vhd,iptest01disks177,IPTEstVM01,IPTESTAS,OS Disk Standard_DS2_v2,ARM
+https://contosospha1.blob.core.windows.net/vhds/IPTestVM02201671615392.vhd,contosospha1,IPTestVM02,IPTESTAS,OS Disk Standard_DS2_v2,ARM
+https://contosowinsrv2016rgdisks511.blob.core.windows.net/vhds/contoso-win201620161207122629.vhd,contosowinsrv2016rgdisks511,contoso-win2016,None,OS Disk Standard_DS1_v2,ARM
+https://contosowinsrv2016rgdisks511.blob.core.windows.net/vhds/contoso-WinSrv220161207154022.vhd,contosowinsrv2016rgdisks511,contoso-WinSrv2,None,OS Disk Standard_DS3_v2,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDtest120170214082334.vhd,mdtestdisks404,MDtest1,MDTESTAS1,OS Disk Standard_DS3_v2,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-083723.vhd,mdtestdisks404,MDtest1,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-083753.vhd,mdtestdisks404,MDtest1,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-083812.vhd,mdtestdisks404,MDtest1,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-083836.vhd,mdtestdisks404,MDtest1,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-083900.vhd,mdtestdisks404,MDtest1,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-083921.vhd,mdtestdisks404,MDtest1,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-083955.vhd,mdtestdisks404,MDtest1,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDtest1-20170214-084017.vhd,mdtestdisks404,MDtest1,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest220170214084458.vhd,mdtestdisks404,MDTest2,MDTESTAS1,OS Disk Standard_F16,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085252.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085310.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085326.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085341.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085357.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085416.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085432.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085449.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085504.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085522.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085541.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085601.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085624.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085649.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085735.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085748.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085807.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085826.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085850.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085904.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085921.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085941.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-085959.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090019.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090207.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090223.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090242.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090259.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090317.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090336.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090355.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDTest2-20170214-090417.vhd,mdtestdisks404,MDTest2,MDTESTAS1,Data Disk 1023 GB,ARM
+https://mdtestdisks404.blob.core.windows.net/vhds/MDtest320170214090627.vhd,mdtestdisks404,MDtest3,MDTESTAS1,OS Disk Standard_D4_v2,ARM
+https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/vhds/contosoASTest1-contosoASTest1-2016-11-21.vhd,rwportalvhdsjvb9tjbnm2wj,contosoASTest1,contosoASTest,OS Disk Standard_D2,ASM
+https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/vhds/contosoASTest1-contosoASTest1-0106-1.vhd,rwportalvhdsjvb9tjbnm2wj,contosoASTest1,contosoASTest,Data Disk 127 GB,ASM
+https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/vhds/contosoASTest1-contosoASTest1-0106-2.vhd,rwportalvhdsjvb9tjbnm2wj,contosoASTest1,contosoASTest,Data Disk 256 GB,ASM
+https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/vhds/contosoastest2-contosoastest03-2016-11-21.vhd,rwportalvhdsjvb9tjbnm2wj,contosoastest03,contosoAS2,OS Disk Standard_D1,ASM
+https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/vhds/contosoastest2-contosoastest2-2016-11-21.vhd,rwportalvhdsjvb9tjbnm2wj,contosoastest2,contosoAS2,OS Disk Standard_D2,ASM
+https://rwportalvhdsjvb9tjbnm2wj.blob.core.windows.net/vhds/contosotest004-contosotest04-2016-12-30.vhd,rwportalvhdsjvb9tjbnm2wj,contosotest04,contosotest04as,OS Disk Standard_D1,ASM
