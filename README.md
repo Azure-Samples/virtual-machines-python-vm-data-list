@@ -12,7 +12,9 @@ technique to extract, transform, and generate an inventory of virtual machines
 (VMs) associated with a subscription. This will include VMs using both the Azure
 Resource Manager (ARM) and Classic (ASM) deployment models.
 
-Read the accompanying How-To Guide: [Using Azure Management APIs to Get Data About Your Deployed Resources](https://blogs.msdn.microsoft.com/azurecat/2017/06/14/using-azure-management-apis-to-get-data-about-your-deployed-resources/)
+Read the accompanying How-To Guide: 
+
+-   [Using Azure Management APIs to Get Data About Your Deployed Resources](https://blogs.msdn.microsoft.com/azurecat/2017/06/14/using-azure-management-apis-to-get-data-about-your-deployed-resources/)
 
 There are three main parts to the example code:
 
